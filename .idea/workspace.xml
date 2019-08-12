@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c47fe87-af93-4342-82cd-b68a9b6d8be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/.idea/flaskMultiRobotApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/edit_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/email/reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/email/reset_password.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/reset_password_request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flaskenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled6/ma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.vs/WarehauseSystemClient/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/.vs/src/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/.vs/app/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/components/concert-hall-main-view/concert-hall-main-view.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/components/concert-hall-main-view/concert-hall-main-view.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/components/concert-hall-main-view/concert-hall-main-view.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/components/concert-hall-main-view/concert-hall-main-view.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/services/concert-hall.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/services/concert-hall.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/services/rest-service.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/services/rest-service.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/ConcertHallWebAppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/Exceptions/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/controller/EmployeeControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/controller/LoggingDataControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/controller/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/controller/SeatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/LoggingData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/Seat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/repository/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/repository/LoggingDataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/repository/RoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/repository/SeatRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/test/java/com/ConcertHallWebApp/ConcertHallWebAppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/rt/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/rt/src/Serr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/rt/web/WEB-INF/du.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/rt/web/WEB-INF/page/asd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/rt/web/page/sdfdf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/servlet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/servlet/src/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/servlet/web/WEB-INF/gg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/servlet/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HelloServlet/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HelloServlet/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HelloServlet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HelloServlet/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HelloServlet/HelloServlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HelloServlet/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/.idea/KNN_Algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/KNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyApplication7/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenCV/opencv_tutorial_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenCV/opencv_tutorial_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenCV/opencv_tutorial_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenCV/opencv_tutorial_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/gfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/gfg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/.idea/untitled1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/Boston_Regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/.idea/Fasion_Multiclassification.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/Fashion_multiclassification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/ID3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/ID3/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/untitled/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJwtAuthentication-1/SpringBootJwtAuthentication/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBootJwtAuthentication-1/SpringBootJwtAuthentication/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/artifacts/Swrvlety_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/libraries/mysql_connector_java_5_1_47_bin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swrvlety/Swrvlety.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swrvlety/src/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swrvlety/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/model/RetrofitModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/network/RetrofitClientInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/service/GetDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/imagesasd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/landscape_art_road_127350_300x168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/pobrane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/pobraneasd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/sadbigthumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/wh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/layout/activity_main_page.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/layout/activity_register.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/main/java/com/example/Terrain_Game/TerrainGameApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/main/java/com/example/Terrain_Game/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/main/java/com/example/Terrain_Game/model/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/main/java/com/example/Terrain_Game/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/test/java/com/example/Terrain_Game/TerrainGameApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WarehauseManagmentSystem-login_and_registration/WarehauseManagmentSystem-login_and_registration/src/main/java/com/warehausesystem/app/warehauseSystemWeb/MyCorsFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WarehauseSystem/src/main/java/rppr/warehausesystem/WarehauseSystem/controllers/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WarehauseSystem/src/main/java/rppr/warehausesystem/WarehauseSystem/controllers/CardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WarehauseSystem/src/main/java/rppr/warehausesystem/WarehauseSystem/model/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WarehauseSystem/src/main/java/rppr/warehausesystem/WarehauseSystem/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WarehauseSystem/src/main/java/rppr/warehausesystem/WarehauseSystem/model/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_3/src/main/java/f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/.idea/libraries/mysql_connector_java_5_1_37_bin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/ClientTCP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/KlientApp.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/KlientApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/ankieta1.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/ankieta1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/menu.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/serwer/BazaDanych.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/serwer/SerwerTCP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/serwer/SerwerView.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/serwer/SerwerView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety2/s_informatyka_Dyrcz_Michał_projekt/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ankiety3/ankiety3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apkfg (1)/apkfg/src/main/java/com/example/apkfg/controller/FirstController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assercje_java/assercje_java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmsse/.idea/libraries/mysql_connector_java_5_1_40.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmsse/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmsse/web/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo (2)/demo/demo2Client/src/app/services/auth.constant.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo (2)/demo/src/main/java/com/example/demo/Repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo (2)/demo/src/main/java/com/example/demo/config/AdditionalWebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo (2)/demo/src/main/java/com/example/demo/config/AuthorizationServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo (2)/demo/src/main/java/com/example/demo/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/demo/demoClient/src/app/core/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/demo/demoClient/src/app/core/error-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/demo/demoClient/src/app/core/error-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/demo/demoClient/src/app/core/material.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/demo/demoClient/src/app/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kolokwium2/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kolokwium2/.idea/libraries/mysql_connector_java_5_1_47_bin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kolokwium2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kolokwium2/src/Logowanie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kolokwium2/web/pages/logged.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kolokwium2/web/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kolokwium2/web/pages/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kolokwium2/web/pages/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab5_naj_baza/kolokwium2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab5_naj_baza/kolokwium2/src/Registration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab5_naj_baza/lab5_naj_baza/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serv/.idea/artifacts/unnamed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serv/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serv/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serv/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serv/serv.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../servl/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../servl/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../servl/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../servl/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../servl/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../servl/servl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring5webapp/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring5webapp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring5webapp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/boston_linear_regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../warehauseSystemWeb/warehauseSystemWeb/src/main/java/com/warehausesystem/app/warehauseSystemWeb/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../warehauseSystemWeb/warehauseSystemWeb/src/main/java/com/warehausesystem/app/warehauseSystemWeb/controller/WarehauseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../warehauseSystemWeb/warehauseSystemWeb/src/main/java/com/warehausesystem/app/warehauseSystemWeb/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../warehauseSystemWeb/warehauseSystemWeb/src/main/java/com/warehausesystem/app/warehauseSystemWeb/repository/WarehauseRepository.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/remoteRobot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.flaskenv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/routes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/remoteRobot.py" />
+        <option value="$PROJECT_DIR$/.flaskenv" />
+        <option value="$PROJECT_DIR$/app/routes.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="remoteRobot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="remoteRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rafpa\Desktop\Projekty\remoteRobot\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="remoteRobot" type="Python.FlaskServer">
+      <module name="remoteRobot" />
+      <option name="target" value="$PROJECT_DIR$/remoteRobot.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c47fe87-af93-4342-82cd-b68a9b6d8be8" name="Default Changelist" comment="" />
+      <created>1565597157900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565597157900</updated>
+      <workItem from="1565597160119" duration="1350000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1350000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.084754795" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3290461" />
+      <window_info anchor="bottom" id="Python Console" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.21543409" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978564" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/remoteRobot$remoteRobot.coverage" NAME="remoteRobot Coverage Results" MODIFIED="1565598049421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.flaskenv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remoteRobot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
