@@ -25,6 +25,7 @@ nav{
     left:-160px;
     flex-basis:15%;
     transition: all 500ms linear;
+    color: #ebf6ff;
 }
 
 nav.active{
@@ -33,17 +34,18 @@ nav.active{
 
 nav ul{
     padding: 0px;
+    margin: 0px;
 }
 nav ul li{
     list-style: none;
     padding:15px 10px;
     border-bottom: 1px solid rgba(100,100,100,0.3);
+    cursor: pointer;
 }
 
-nav ul li:first-child{
-    padding-top:0px;
+nav ul li:hover{
+    background-color: #202f3e;
 }
-
 .content{
     margin-left:160px;
     width:88%;
@@ -55,6 +57,7 @@ nav ul li:first-child{
     position:absolute;
     top:4px;
     left:4px;
+    cursor: pointer;
 }
 
 .toggle-btn span{
@@ -63,5 +66,4 @@ nav ul li:first-child{
     height: 3px;
     background-color: white;
     margin: 3px 0px;
-
 }
