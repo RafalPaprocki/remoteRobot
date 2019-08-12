@@ -1,0 +1,67 @@
+html,
+body{
+    margin:0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+header{
+    width:100%;
+    min-height:30px;
+    height:2%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,82,1) 35%, rgba(0,212,255,1) 100%);
+    position: fixed;
+}
+
+nav{
+    background-color:#283949;
+    min-width: 160px;
+    position: fixed;
+    height:100%;
+    top:30px;
+    left:-160px;
+    flex-basis:15%;
+    transition: all 500ms linear;
+}
+
+nav.active{
+    left:0px;
+}
+
+nav ul{
+    padding: 0px;
+}
+nav ul li{
+    list-style: none;
+    padding:15px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+
+nav ul li:first-child{
+    padding-top:0px;
+}
+
+.content{
+    margin-left:160px;
+    width:88%;
+    font-size: 500px;
+    color: red;
+}
+
+.toggle-btn{
+    position:absolute;
+    top:4px;
+    left:4px;
+}
+
+.toggle-btn span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0px;
+
+}
