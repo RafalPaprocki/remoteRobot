@@ -18,7 +18,7 @@ header{
 
 nav{
     background-color:#283949;
-    min-width: 160px;
+    width: 160px;
     position: fixed;
     height:100%;
     top:30px;
@@ -38,7 +38,6 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    padding:15px 10px;
     border-bottom: 1px solid rgba(100,100,100,0.3);
     cursor: pointer;
 }
@@ -48,7 +47,7 @@ nav ul li:hover{
 }
 .content{
     margin-left:160px;
-    width:88%;
+    width:100%;
     font-size: 500px;
     color: red;
 }
@@ -66,4 +65,11 @@ nav ul li:hover{
     height: 3px;
     background-color: white;
     margin: 3px 0px;
+}
+
+.menu-item{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color:white;
 }
