@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>remoteRobot</title>
+    <link rel="stylesheet" type="text/css" href="static/mainPage.css">
+    <script type="text/javascript" src="{{ url_for('static', filename='mainPage.js') }}"></script>
+</head>
+<body>
+    <header>
+        <div class="toggle-btn" onclick="toggleSidebar()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <div class="main-container">
+        <nav id="sidebar">
+            <ul>
+                <li>
+                    <a class="menu-item" href="{{url_for('index')}}">Main Page</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="{{url_for('robot_config')}}">Robot configuration</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="{{url_for('robot_routes')}}">Creating a route</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="{{url_for('data_preview')}}">Data preview</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+</body>
+</html>
