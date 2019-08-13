@@ -50,3 +50,65 @@
 .stop{
     width:30%;
 }
+
+.circle{
+    border-radius:50%;
+    width:10%;
+    padding-top: 10%;
+    cursor:pointer;
+    background: url("/static/stop.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+    min-width:30px;
+    min-height:30px;
+
+}
+
+.circle:hover{
+    opacity: 0.7;
+}
+
+#stop.active{
+    opacity:1;
+}
+
+.line_follower{
+    background: url("/static/line_follower.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    opacity: 1;
+}
+
+.controlling{
+    background: url("/static/controlling.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    opacity: 1;
+}
+
+.gesture{
+    background: url("/static/gest.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    opacity: 1;
+}
+
+.autonomouse{
+    background: url("/static/autonomous.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    opacity: 1;
+}
+
+.location{
+    background: url("/static/location.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    opacity: 1;
+}

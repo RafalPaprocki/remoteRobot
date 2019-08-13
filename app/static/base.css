@@ -5,7 +5,7 @@ body{
     width: 100%;
     display: flex;
     flex-flow: column;
-    font-size: 0.98em;
+    font-size: 0.94em;
 }
 
 header{
@@ -87,3 +87,4 @@ nav ul li:hover{
     text-decoration: none;
     color:white;
 }
+

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block header %}
     <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='mainPage.css') }}">
-    <script src="{{ url_for('static', filename='mainPage.css') }}"></script>
+    <script src="{{ url_for('static', filename='mainPage.js') }}"></script>
 {% endblock %}
 {% block content %}
     <div class="main-div">
@@ -26,5 +26,13 @@
             </div>
         </div>
     </div>
-    <button class="btn btn-success">bootstrap btn</button>
+    <div style=" display: flex; justify-content: space-around; width: 80%; padding:3px">
+        <div id="stop" class = "circle" onclick="activeStop()" ></div>
+        <div id="" class = "circle line_follower" onclick="activeStop()" ></div>
+        <div id="" class = "circle controlling" onclick="activeStop()" ></div>
+        <div id="" class = "circle gesture" onclick="activeStop()" ></div>
+        <div id="" class = "circle autonomouse" onclick="activeStop()" ></div>
+        <div id="" class = "circle location" onclick="activeStop()" ></div>
+    </div>
 {% endblock %}
+
