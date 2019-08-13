@@ -50,13 +50,14 @@ nav ul li:hover{
     margin-left:165px;
     margin-right: 5px;
     margin-top:30px;
-    width:calc(87% - 160px);
+    width:calc(100% - 170px);
     color: black;
     transition: all 500ms linear;
 }
 
 .content.active{
     margin-left: 5px;
+    width:calc(100% - 10px);
 }
 
 .toggle-btn{

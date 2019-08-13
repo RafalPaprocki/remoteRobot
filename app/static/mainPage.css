@@ -1,0 +1,52 @@
+.main-div{
+    display: flex;
+}
+
+.stream{
+    flex-grow: 5;
+}
+
+.img{
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    height: 70vh;
+}
+
+.control{
+    flex-grow:1;
+    height: 70vh;
+    min-width: 50px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.direction_arrow{
+    width:50%;
+}
+
+.arrow{
+    flex-grow: 1;
+    height: 8vh;
+    display: flex;
+    min-width: 14vh;
+    justify-content: center;
+}
+
+.up-arrow{
+    align-items: flex-end;
+}
+
+.turn-arrow{
+    align-items: center;
+}
+
+.down-arrow{
+    align-items: flex-start;
+}
+
+.stop{
+    width:30%;
+}

@@ -1,4 +1,29 @@
 {% extends "base.html" %}
+{% block header %}
+    <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='mainPage.css') }}">
+    <script src="{{ url_for('static', filename='mainPage.css') }}"></script>
+{% endblock %}
 {% block content %}
-    main page
+    <div class="main-div">
+        <div class="stream">
+            <img class="img" src="{{ url_for('static', filename='images.jpeg') }}"/>
+        </div>
+        <div class="control">
+            <div style="height:29vh;">
+                <div class="up-arrow arrow">
+                    <input onfocus="forward()" class="direction_arrow" type="image" src="{{url_for('static', filename='pobrane.png')}}" border="0" alt="Submit" style=" transform:rotate(270deg)" />
+                </div>
+                <div class="turn-arrow arrow" >
+                    <input onfocus="left()" class="direction_arrow" type="image" src="{{url_for('static', filename='pobrane.png')}}" border="0" alt="Submit" style=" transform:rotate(180deg)" />
+                    <input onfocus="right()" class="direction_arrow" type="image" src="{{url_for('static', filename='pobrane.png')}}" alt="Submit" style=" transform:rotate(0deg)" />
+                </div>
+                <div class="down-arrow arrow">
+                    <input onfocus="down()" class="direction_arrow" type="image" src="{{url_for('static', filename='pobrane.png')}}" border="0" alt="Submit" style=" transform:rotate(90deg)" />
+                </div>
+            </div>
+            <div>
+                <input onfocus="down()" class="direction_arrow stop" type="image" src="{{url_for('static', filename='stop.png')}}" border="0" alt="Submit" style=" transform:rotate(90deg)" />
+            </div>
+        </div>
+    </div>
 {% endblock %}
