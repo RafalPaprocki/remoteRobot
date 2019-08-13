@@ -5,6 +5,7 @@ body{
     width: 100%;
     display: flex;
     flex-flow: column;
+    font-size: 0.98em;
 }
 
 header{
@@ -39,12 +40,12 @@ nav ul li{
     list-style: none;
     border-bottom: 1px solid rgba(100,100,100,0.3);
     cursor: pointer;
+
 }
 
 nav ul li:hover{
     background-color: #202f3e;
 }
-
 
 .content{
     margin-left:165px;
@@ -78,6 +79,11 @@ nav ul li:hover{
 .menu-item{
     display: block;
     padding: 15px 10px;
+    text-decoration: none;
+    color:white;
+}
+
+.menu-item:hover{
     text-decoration: none;
     color:white;
 }

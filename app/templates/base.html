@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>remoteRobot</title>
+    {{ bootstrap.load_css() }}
     <link rel="stylesheet" type="text/css" href="static/base.css">
     <script type="text/javascript" src="{{ url_for('static', filename='base.js') }}"></script>
     {% block header %}{% endblock %}
@@ -36,5 +37,6 @@
             {% block content %}{% endblock %}
         </div>
     </div>
+    {{ bootstrap.load_js() }}
 </body>
 </html>
