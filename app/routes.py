@@ -33,7 +33,7 @@ def gen():
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
 
-@app.route('/video_feed')
-def video_feed():
+@app.route('/video_stream')
+def video_stream():
     return Response(gen(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
