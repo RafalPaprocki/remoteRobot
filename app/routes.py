@@ -2,6 +2,7 @@ from flask import render_template, flash, redirect, url_for, request
 from flask import Response
 from app import app
 from app.camera_pi import Camera
+from app.preprocessing import Processing
 
 
 @app.route('/')
@@ -29,6 +30,9 @@ def gen():
     camera.initialize()
     while True:
             frame = camera.take_frame()
+            frame = Processing.to_np_array(frame)
+            frame = Processing.add_circle(frame)
+            frame = Processing.to_jpeg(frame)
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
