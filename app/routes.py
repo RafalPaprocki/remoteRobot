@@ -1,5 +1,7 @@
 from flask import render_template, flash, redirect, url_for, request
+from flask import Response
 from app import app
+from app.camera_pi import Camera
 
 
 @app.route('/')
@@ -21,3 +23,17 @@ def robot_routes():
 def data_preview():
     return render_template('dataPreview.html')
 
+
+def gen():
+    camera = Camera()
+    camera.initialize()
+    while True:
+            frame = camera.take_frame()
+            yield (b'--frame\r\n'
+                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+
+
+@app.route('/video_feed')
+def video_feed():
+    return Response(gen(),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
