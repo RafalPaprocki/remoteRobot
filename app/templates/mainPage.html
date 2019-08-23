@@ -34,5 +34,46 @@
         <div id="" class = "circle autonomouse" onclick="activeStop()" ></div>
         <div id="" class = "circle location" onclick="activeStop()" ></div>
     </div>
+    <h3 style='color: #ccc;font-size: 30px;'>No message yet..</h3>
+    <div class="message_holder"></div>
+
+    <form action="" method="POST">
+      <input type="text" class="username" placeholder="User Name"/>
+      <input type="text" class="message" placeholder="Messages"/>
+      <input type="submit"/>
+    </form>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+            var socket = io('http://' + document.domain + ':' + location.port + '/test');
+
+            socket.on('my response', function(msg) {
+                $('#log').append('<p>Received: ' + msg.data + '</p>');
+            });
+
+            $('form#emit').submit(function(event) {
+                socket.emit('join', "room1");
+                return false;
+            });
+            $('form#broadcast').submit(function(event) {
+                socket.emit('leave', "room1");
+                return false;
+            });
+        });
+    </script>
+    h2>Send:</h2>
+    <form id="emit" method="POST" action='#'>
+        <input type="text" name="emit_data" id="emit_data" placeholder="Message">
+        <input type="submit" value="Echo">
+    </form>
+    <form id="broadcast" method="POST" action='#'>
+        <input type="text" name="broadcast_data" id="broadcast_data" placeholder="Message">
+        <input type="submit" value="Broadcast">
+    </form>
+    <h2>Receive:</h2>
+    <div id="log"></div>
 {% endblock %}
 

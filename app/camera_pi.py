@@ -14,9 +14,7 @@ class StreamingOutput(object):
     def write(self, buf):
         if buf.startswith(b'\xff\xd8'):
             self.buffer.truncate()
-            with self.condition:
-                self.frame = self.buffer.getvalue()
-                self.condition.notify_all()
+            self.frame = self.buffer.getvalue()
             self.buffer.seek(0)
         return self.buffer.write(buf)
 
@@ -30,7 +28,7 @@ class Camera(object):
         if Camera.thread is None:
             Camera.thread = threading.Thread(target=self._thread)
             Camera.thread.start()
-            time.sleep(0.5)
+            time.sleep(1.5)
 
     @classmethod
     def _thread(cls):
@@ -40,6 +38,4 @@ class Camera(object):
             time.sleep(100000)
 
     def take_frame(self):
-        with Camera.output.condition:
-            Camera.output.condition.wait()
-            return Camera.output.frame
+        return Camera.output.frame
