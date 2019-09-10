@@ -6,7 +6,8 @@ from app.preprocessing import Processing
 from flask_socketio import emit, join_room, leave_room
 import threading
 import time
-
+from app.hardware.distance_sensor import start_distance_measurement, set_process_run
+import cv2
 
 @app.route('/')
 def index():
@@ -29,14 +30,17 @@ def data_preview():
 
 
 def gen():
+    p = Processing()
+    # p.load()
     camera = Camera()
     camera.initialize()
+    i = 0
     while True:
             frame = camera.take_frame()
             frame = Processing.to_np_array(frame)
-            frame = Processing.add_circle(frame)
+            # frame = p.image_preprocess(frame)
+            i += 1
             frame = Processing.to_jpeg(frame)
-            # socketio.emit('my response', {'data': 'dda'}, namespace='/test', room="room1")
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
@@ -45,6 +49,21 @@ def gen():
 def video_stream():
     return Response(gen(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
+
+
+@app.route('/distance_measurement/start')
+def distance_measurement_start():
+    set_process_run(True)
+    a = threading.Thread(target=start_distance_measurement())
+    a.start()
+    return Response(200)
+
+
+@app.route('/distance_measurement/stop')
+def distance_measurement_stop():
+    set_process_run(False)
+    return Response(200)
+
 
 @socketio.on('my event', namespace='/test')
 def test_message(message):
@@ -71,7 +90,6 @@ def leave_roome(data):
     leave_room(room)
 
 
-
 clients = []
 
 
@@ -89,5 +107,6 @@ def thread_func():
     while(1):
         time.sleep(1)
         socketio.emit('my response', {'data': 'ddd'}, namespace='/test', room="room1")
+
 
 x = threading.Thread(target=thread_func)

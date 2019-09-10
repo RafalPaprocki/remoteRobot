@@ -26,6 +26,9 @@
             </div>
         </div>
     </div>
+    <button onclick="distanceSensorStart()">Start distance sensor</button>
+    <button onclick="distanceSensorStop()">Stop distance sensor</button>
+    <div id = "warning_distance">asdasd</div>
     <div style=" display: flex; justify-content: space-around; width: 80%; padding:3px">
         <div id="stop" class = "circle" onclick="activeStop()" ></div>
         <div id="" class = "circle line_follower" onclick="activeStop()" ></div>
@@ -35,13 +38,14 @@
         <div id="" class = "circle location" onclick="activeStop()" ></div>
     </div>
     <h3 style='color: #ccc;font-size: 30px;'>No message yet..</h3>
-    <div class="message_holder"></div>
+    <div class="message_holder">asdasd</div>
 
     <form action="" method="POST">
       <input type="text" class="username" placeholder="User Name"/>
       <input type="text" class="message" placeholder="Messages"/>
       <input type="submit"/>
     </form>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -52,6 +56,10 @@
 
             socket.on('my response', function(msg) {
                 $('#log').append('<p>Received: ' + msg.data + '</p>');
+            });
+
+            socket.on('warning response', function(msg) {
+                $('#warning_distance').text("warning")
             });
 
             $('form#emit').submit(function(event) {
