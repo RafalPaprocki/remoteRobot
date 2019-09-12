@@ -134,17 +134,18 @@ def robot_forward():
 def robot_left():
     GPIO.output(13, GPIO.LOW)
     GPIO.output(6, GPIO.HIGH)
-    GPIO.output(19, GPIO.LOW)
+    GPIO.output(19, GPIO.HIGH)
     GPIO.output(26, GPIO.LOW)
     return "ok"
 
 
 @app.route("/robot/right", methods=['GET'])
 def robot_right():
-    GPIO.output(13, GPIO.LOW)
+    GPIO.output(13, GPIO.HIGH)
     GPIO.output(6, GPIO.LOW)
     GPIO.output(19, GPIO.LOW)
     GPIO.output(26, GPIO.HIGH)
+
     return "ok"
 
 
@@ -153,6 +154,43 @@ def robot_stop():
     GPIO.output(13, GPIO.LOW)
     GPIO.output(6, GPIO.LOW)
     GPIO.output(19, GPIO.LOW)
+    GPIO.output(26, GPIO.LOW)
+    return "ok"
+
+
+@app.route("/robot/right_forward", methods=['GET'])
+def robot_right_forward():
+    GPIO.output(13, GPIO.LOW)
+    GPIO.output(6, GPIO.LOW)
+    GPIO.output(19, GPIO.LOW)
+    GPIO.output(26, GPIO.HIGH)
+
+    return "ok"
+
+
+@app.route("/robot/left_forward", methods=['GET'])
+def robot_left_forward():
+    GPIO.output(13, GPIO.LOW)
+    GPIO.output(6, GPIO.HIGH)
+    GPIO.output(19, GPIO.LOW)
+    GPIO.output(26, GPIO.LOW)
+    return "ok"
+
+
+@app.route("/robot/left_back", methods=['GET'])
+def robot_left_back():
+    GPIO.output(13, GPIO.HIGH)
+    GPIO.output(6, GPIO.LOW)
+    GPIO.output(19, GPIO.LOW)
+    GPIO.output(26, GPIO.LOW)
+    return "ok"
+
+
+@app.route("/robot/right_back", methods=['GET'])
+def robot_right_back():
+    GPIO.output(13, GPIO.LOW)
+    GPIO.output(6, GPIO.LOW)
+    GPIO.output(19, GPIO.HIGH)
     GPIO.output(26, GPIO.LOW)
     return "ok"
 

@@ -9,7 +9,8 @@ GPIO.setup(19, GPIO.OUT)
 GPIO.setup(26, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
 GPIO.setup(6, GPIO.OUT)
-
+GPIO.setup(16, GPIO.OUT)
+GPIO.setup(20, GPIO.OUT)
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
 app.config['SECRET_KEY'] = 'secret!'

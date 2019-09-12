@@ -99,22 +99,26 @@ function defineCarAction(x, y) {
     xhttp.open("GET", "robot/back", true);
     xhttp.send();
   }else if(x <= -66 && x >= -78 && y <= -62 && y >= -74){
-    console.log("left-down")
+    xhttp.open("GET", "robot/left_back", true);
+    xhttp.send();
   }else if(x >= -100 && x <= -89 && y >= -11 && y <= 11){
     xhttp.open("GET", "robot/left", true);
     xhttp.send();
   }else if(x <= -66 && x >= -78 && y <= 74 && y >= 62){
-    console.log("left-up")
+    xhttp.open("GET", "robot/left_forward", true);
+    xhttp.send();
   }else if(x >= -11 && x<= 11 && y >= 89 && y <= 100){
     xhttp.open("GET", "robot/forward", true);
     xhttp.send();
   }else if(x <= 78 && x >= 66 && y <= 74 && y >= 62){
-    console.log("right-up")
+    xhttp.open("GET", "robot/right_forward", true);
+    xhttp.send();
   }else if(x >= 89 && x <= 100 && y >= -11 && y <= 11){
     xhttp.open("GET", "robot/right", true);
     xhttp.send();
   }else if(x <= 78 && x >= 66 && y <= -62 && y >= -74){
-    console.log("right-down")
+    xhttp.open("GET", "robot/right_back", true);
+    xhttp.send();
   }else{
     xhttp.open("GET", "robot/stop", true);
     xhttp.send();
@@ -130,3 +134,4 @@ function horizontalCamera(value) {
   xhttp.open("GET", "robot/horizontal/move/" + value, true);
   xhttp.send();
 }
+
