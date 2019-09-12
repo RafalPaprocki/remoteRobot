@@ -145,3 +145,10 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+
+  background: #3071a9;
+
+}

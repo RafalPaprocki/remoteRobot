@@ -11,7 +11,7 @@
 {% block content %}
     <div class="main-div">
         <div class="stream">
-            <!--<img class="img" src="{{ url_for('video_stream') }}"/> -->
+            <img class="img" src="{{ url_for('video_stream') }}"/>
         </div>
         <div class="control">
             <div class="noselect">
@@ -23,6 +23,12 @@
             </div>
             <span id="xVal"></span>
             <span id="yVal"></span>
+            <div style = "width:100%; margin-top:5%">
+                <input style="width:100%; color:green" type="range" min="0" max="180" value="90" class="slider" id="myRange"
+                       oninput="horizontalCamera(this.value)" onchange="horizontalCamera(this.value)">
+                <input style="width:100%; color:green" type="range" min="0" max="180" value="90" class="slider" id="myRange"
+                        oninput="verticalCamera(this.value)" onchange="verticalCamera(this.value)">
+            </div>
         </div>
     </div>
     <button onclick="distanceSensorStart()">Start distance sensor</button>

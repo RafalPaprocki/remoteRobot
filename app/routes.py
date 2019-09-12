@@ -9,6 +9,8 @@ import time
 from app.hardware.distance_sensor import start_distance_measurement, set_process_run
 import cv2
 import RPi.GPIO as GPIO
+from adafruit_servokit import ServoKit
+kit = ServoKit(channels=16)
 
 @app.route('/')
 def index():
@@ -152,6 +154,18 @@ def robot_stop():
     GPIO.output(6, GPIO.LOW)
     GPIO.output(19, GPIO.LOW)
     GPIO.output(26, GPIO.LOW)
+    return "ok"
+
+
+@app.route("/robot/horizontal/move/<angle>", methods=['GET'])
+def robot_horizontal_move(angle):
+    kit.servo[3].angle = int(angle)
+    return "ok"
+
+
+@app.route("/robot/vertical/move/<angle>", methods=['GET'])
+def robot_vertical_move(angle):
+    kit.servo[4].angle = int(angle)
     return "ok"
 
 
