@@ -2,28 +2,27 @@
 {% block header %}
     <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='mainPage.css') }}">
     <script src="{{ url_for('static', filename='mainPage.js') }}"></script>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+{% endblock %}
+{% block body_attr %}
+    onload="init()"
 {% endblock %}
 {% block content %}
     <div class="main-div">
         <div class="stream">
-            <img class="img" src="{{ url_for('video_stream') }}"/>
+            <!--<img class="img" src="{{ url_for('video_stream') }}"/> -->
         </div>
         <div class="control">
-            <div style="height:29vh;">
-                <div class="up-arrow arrow">
-                    <input onfocus="forward()" class="direction_arrow" type="image" src="{{url_for('static', filename='pobrane.png')}}" border="0" alt="Submit" style=" transform:rotate(270deg)" />
+            <div class="noselect">
+              <div class="container space-top">
+                <div class="center-align">
+                  <canvas id="joystick" height="300" width="300"></canvas>
                 </div>
-                <div class="turn-arrow arrow" >
-                    <input onfocus="left()" class="direction_arrow" type="image" src="{{url_for('static', filename='pobrane.png')}}" border="0" alt="Submit" style=" transform:rotate(180deg)" />
-                    <input onfocus="right()" class="direction_arrow" type="image" src="{{url_for('static', filename='pobrane.png')}}" alt="Submit" style=" transform:rotate(0deg)" />
-                </div>
-                <div class="down-arrow arrow">
-                    <input onfocus="down()" class="direction_arrow" type="image" src="{{url_for('static', filename='pobrane.png')}}" border="0" alt="Submit" style=" transform:rotate(90deg)" />
-                </div>
+              </div>
             </div>
-            <div>
-                <input onfocus="stop()" class="direction_arrow stop" type="image" src="{{url_for('static', filename='stop.png')}}" border="0" alt="Submit" style=" transform:rotate(90deg)" />
-            </div>
+            <span id="xVal"></span>
+            <span id="yVal"></span>
         </div>
     </div>
     <button onclick="distanceSensorStart()">Start distance sensor</button>

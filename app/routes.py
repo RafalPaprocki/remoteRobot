@@ -8,6 +8,7 @@ import threading
 import time
 from app.hardware.distance_sensor import start_distance_measurement, set_process_run
 import cv2
+import RPi.GPIO as GPIO
 
 @app.route('/')
 def index():
@@ -107,6 +108,51 @@ def thread_func():
     while(1):
         time.sleep(1)
         socketio.emit('my response', {'data': 'ddd'}, namespace='/test', room="room1")
+
+
+@app.route("/robot/back", methods=['GET'])
+def robot_back():
+    GPIO.output(13, GPIO.HIGH)
+    GPIO.output(6, GPIO.LOW)
+    GPIO.output(19, GPIO.HIGH)
+    GPIO.output(26, GPIO.LOW)
+    return "ok"
+
+
+@app.route("/robot/forward", methods=['GET'])
+def robot_forward():
+    GPIO.output(13, GPIO.LOW)
+    GPIO.output(6, GPIO.HIGH)
+    GPIO.output(19, GPIO.LOW)
+    GPIO.output(26, GPIO.HIGH)
+    return "ok"
+
+
+@app.route("/robot/left", methods=['GET'])
+def robot_left():
+    GPIO.output(13, GPIO.LOW)
+    GPIO.output(6, GPIO.HIGH)
+    GPIO.output(19, GPIO.LOW)
+    GPIO.output(26, GPIO.LOW)
+    return "ok"
+
+
+@app.route("/robot/right", methods=['GET'])
+def robot_right():
+    GPIO.output(13, GPIO.LOW)
+    GPIO.output(6, GPIO.LOW)
+    GPIO.output(19, GPIO.LOW)
+    GPIO.output(26, GPIO.HIGH)
+    return "ok"
+
+
+@app.route("/robot/stop", methods=['GET'])
+def robot_stop():
+    GPIO.output(13, GPIO.LOW)
+    GPIO.output(6, GPIO.LOW)
+    GPIO.output(19, GPIO.LOW)
+    GPIO.output(26, GPIO.LOW)
+    return "ok"
 
 
 x = threading.Thread(target=thread_func)

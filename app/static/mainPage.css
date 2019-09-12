@@ -3,11 +3,11 @@
 }
 
 .stream{
-    flex-grow: 5;
+    flex-grow: 4;
 }
 
 .img{
-    width:100%;
+    width:99%;
     padding: 0px;
     margin: 0px;
     height: 70vh;
@@ -17,7 +17,7 @@
     flex-grow:1;
     height: 70vh;
     min-width: 50px;
-    max-width: 150px;
+    max-width: 233px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,4 +111,37 @@
     background-size: cover;
     border: 1px solid red;
     opacity: 1;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #dedede;
+}
+
+.space-top {
+  padding-top: 10px;
+}
+
+#joystick {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  -moz-border-radius: 300px;
+  -webkit-border-radius: 300px;
+  text-align: center;
+  background-color: #80d5ff;
+  font: 24px/300px Helvetica, Arial, sans-serif;
+  cursor: all-scroll;
+  user-select: none;
+  z-index: -100;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
