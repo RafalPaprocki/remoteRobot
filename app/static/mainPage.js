@@ -1,3 +1,5 @@
+var hidden = false;
+
 function activeStop(){
     document.getElementById("stop").classList.toggle("active");
 }
@@ -122,12 +124,14 @@ function defineCarAction(x, y) {
   }else{
     xhttp.open("GET", "robot/stop", true);
     xhttp.send();
+
   }
 }
 
 function verticalCamera(value) {
   xhttp.open("GET", "robot/vertical/move/" + value, true);
   xhttp.send();
+
 }
 
 function horizontalCamera(value) {
@@ -136,5 +140,11 @@ function horizontalCamera(value) {
 }
 
 function hideControl() {
-  $( ".control" ).hide( [['easing', 'swing'], ["duration", "1200"]]);
+  if(hidden){
+     $( ".control" ).show( 1000)
+    hidden = false
+  }else {
+    $(".control").hide(1000);
+    hidden = true
+  }
 }
