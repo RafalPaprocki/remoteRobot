@@ -197,13 +197,13 @@ def robot_right_back():
 
 @app.route("/robot/horizontal/move/<angle>", methods=['GET'])
 def robot_horizontal_move(angle):
-    kit.servo[3].angle = int(angle)
+    kit.servo[4].angle = int(angle)
     return "ok"
 
 
 @app.route("/robot/vertical/move/<angle>", methods=['GET'])
 def robot_vertical_move(angle):
-    kit.servo[4].angle = int(angle)
+    kit.servo[3].angle = int(angle)
     return "ok"
 
 

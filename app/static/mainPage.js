@@ -135,3 +135,6 @@ function horizontalCamera(value) {
   xhttp.send();
 }
 
+function hideControl() {
+  $( ".control" ).hide( [['easing', 'swing'], ["duration", "1200"]]);
+}
