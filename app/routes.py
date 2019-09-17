@@ -10,6 +10,7 @@ from app.hardware.distance_sensor import start_distance_measurement, set_process
 import cv2
 import RPi.GPIO as GPIO
 from adafruit_servokit import ServoKit
+from app.models.Weather import Weather
 kit = ServoKit(channels=16)
 
 @app.route('/')
@@ -160,6 +161,8 @@ def robot_stop():
 
 @app.route("/robot/right_forward", methods=['GET'])
 def robot_right_forward():
+    r = Weather(humidity=34,temperature=21)
+    print(r)
     GPIO.output(13, GPIO.LOW)
     GPIO.output(6, GPIO.LOW)
     GPIO.output(19, GPIO.LOW)
