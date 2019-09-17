@@ -12,3 +12,4 @@ class Weather(db.Model):
     def __repr__(self):
         return '<Weather {}>'.format(self.id)
 
+

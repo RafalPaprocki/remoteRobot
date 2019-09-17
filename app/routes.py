@@ -10,13 +10,28 @@ from app.hardware.distance_sensor import start_distance_measurement, set_process
 import cv2
 import RPi.GPIO as GPIO
 from adafruit_servokit import ServoKit
-from app.models.Weather import Weather
+from app.models.weather import Weather
+from app.hardware.dht11 import DHT11
+
 kit = ServoKit(channels=16)
+dht11 = DHT11()
+
 
 @app.route('/')
 def index():
     return render_template('mainPage.html')
 
+
+@app.route('/startt')
+def startt():
+    dht11.start()
+    return "ok"
+
+
+@app.route('/stop')
+def stop():
+    dht11.stop()
+    return "ok"
 
 @app.route('/robot-config')
 def robot_config():
