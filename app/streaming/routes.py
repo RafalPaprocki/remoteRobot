@@ -1,5 +1,5 @@
 from app.streaming.camera_pi import Camera
-from app.preprocessing import Processing
+from app.preprocessing.preprocessing import Processing
 from flask import Response
 from app import app
 

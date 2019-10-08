@@ -1,15 +1,11 @@
 from flask import render_template, request
-from flask import Response
 from app import app, socketio
 from flask_socketio import emit, join_room, leave_room
-import time
-from app.sensors.distance_sensor import start_distance_measurement, set_process_run
 
 
 @app.route('/')
 def index():
     return render_template('mainPage.html')
-
 
 
 @app.route('/robot-config')
@@ -27,17 +23,10 @@ def data_preview():
     return render_template('dataPreview.html')
 
 
-
-
-
-
-
-
 @socketio.on('my event', namespace='/test')
 def test_message(message):
     emit('my response', {'data': message['data']})
     print(clients)
-
 
 
 @socketio.on('my broadcast event', namespace='/test')
