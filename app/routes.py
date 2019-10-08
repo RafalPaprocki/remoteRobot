@@ -1,4 +1,4 @@
-from flask import render_template, flash, redirect, url_for, request
+from flask import render_template, request
 from flask import Response
 from app import app, socketio
 from app.camera_pi import Camera
@@ -7,13 +7,11 @@ from flask_socketio import emit, join_room, leave_room
 import threading
 import time
 from app.hardware.distance_sensor import start_distance_measurement, set_process_run
-import cv2
-import RPi.GPIO as GPIO
 from adafruit_servokit import ServoKit
-from app.models.weather import Weather
 from app.hardware.dht11 import DHT11
 
-kit = ServoKit(channels=16)
+
+
 dht11 = DHT11()
 
 
@@ -57,8 +55,8 @@ def gen():
     while True:
             frame = camera.take_frame()
             frame = Processing.to_np_array(frame)
-            frame, detected_lines = p.line_detect(frame)
-            frame = p.draw_lane_lines(frame, detected_lines)
+            # frame, detected_lines = p.line_detect(frame)
+            # frame = p.draw_lane_lines(frame, detected_lines)
             i += 1
             frame = Processing.to_jpeg(frame)
             yield (b'--frame\r\n'
@@ -129,101 +127,6 @@ def thread_func():
         socketio.emit('my response', {'data': 'ddd'}, namespace='/test', room="room1")
 
 
-@app.route("/robot/back", methods=['GET'])
-def robot_back():
-    GPIO.output(13, GPIO.HIGH)
-    GPIO.output(6, GPIO.LOW)
-    GPIO.output(5, GPIO.HIGH)
-    GPIO.output(26, GPIO.LOW)
-    return "ok"
-
-
-@app.route("/robot/forward", methods=['GET'])
-def robot_forward():
-    GPIO.output(13, GPIO.LOW)
-    GPIO.output(6, GPIO.HIGH)
-    GPIO.output(5, GPIO.LOW)
-    GPIO.output(26, GPIO.HIGH)
-    return "ok"
-
-
-@app.route("/robot/left", methods=['GET'])
-def robot_left():
-    GPIO.output(13, GPIO.LOW)
-    GPIO.output(6, GPIO.HIGH)
-    GPIO.output(5, GPIO.HIGH)
-    GPIO.output(26, GPIO.LOW)
-    return "ok"
-
-
-@app.route("/robot/right", methods=['GET'])
-def robot_right():
-    GPIO.output(13, GPIO.HIGH)
-    GPIO.output(6, GPIO.LOW)
-    GPIO.output(5, GPIO.LOW)
-    GPIO.output(26, GPIO.HIGH)
-
-    return "ok"
-
-
-@app.route("/robot/stop", methods=['GET'])
-def robot_stop():
-    GPIO.output(13, GPIO.LOW)
-    GPIO.output(6, GPIO.LOW)
-    GPIO.output(5, GPIO.LOW)
-    GPIO.output(26, GPIO.LOW)
-    return "ok"
-
-
-@app.route("/robot/right_forward", methods=['GET'])
-def robot_right_forward():
-    r = Weather(humidity=34,temperature=21)
-    print(r)
-    GPIO.output(13, GPIO.LOW)
-    GPIO.output(6, GPIO.LOW)
-    GPIO.output(5, GPIO.LOW)
-    GPIO.output(26, GPIO.HIGH)
-
-    return "ok"
-
-
-@app.route("/robot/left_forward", methods=['GET'])
-def robot_left_forward():
-    GPIO.output(13, GPIO.LOW)
-    GPIO.output(6, GPIO.HIGH)
-    GPIO.output(5, GPIO.LOW)
-    GPIO.output(26, GPIO.LOW)
-    return "ok"
-
-
-@app.route("/robot/left_back", methods=['GET'])
-def robot_left_back():
-    GPIO.output(13, GPIO.HIGH)
-    GPIO.output(6, GPIO.LOW)
-    GPIO.output(5, GPIO.LOW)
-    GPIO.output(26, GPIO.LOW)
-    return "ok"
-
-
-@app.route("/robot/right_back", methods=['GET'])
-def robot_right_back():
-    GPIO.output(13, GPIO.LOW)
-    GPIO.output(6, GPIO.LOW)
-    GPIO.output(5, GPIO.HIGH)
-    GPIO.output(26, GPIO.LOW)
-    return "ok"
-
-
-@app.route("/robot/horizontal/move/<angle>", methods=['GET'])
-def robot_horizontal_move(angle):
-    kit.servo[4].angle = int(angle)
-    return "ok"
-
-
-@app.route("/robot/vertical/move/<angle>", methods=['GET'])
-def robot_vertical_move(angle):
-    kit.servo[3].angle = int(angle)
-    return "ok"
 
 
 x = threading.Thread(target=thread_func)

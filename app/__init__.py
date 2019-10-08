@@ -25,4 +25,5 @@ migrate = Migrate(app, db)
 socketio = SocketIO(app, async_mode="threading")
 
 from app import routes
+from app.robot_control import routes
 from app.models import weather, route
