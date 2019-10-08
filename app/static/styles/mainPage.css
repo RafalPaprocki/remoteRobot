@@ -56,13 +56,12 @@
     width:10%;
     padding-top: 10%;
     cursor:pointer;
-    background: url("/static/stop.png") no-repeat;
+    background: url("/static/images/stop.png") no-repeat;
     background-position: center;
     background-size: cover;
     opacity: 0.6;
     min-width:30px;
     min-height:30px;
-
 }
 
 .circle:hover{
@@ -74,7 +73,7 @@
 }
 
 .line_follower{
-    background: url("/static/line_follower.png") no-repeat;
+    background: url("/static/images/line_follower.png") no-repeat;
     background-position: center;
     background-size: cover;
     border: 1px solid red;
@@ -82,7 +81,7 @@
 }
 
 .controlling{
-    background: url("/static/controlling.png") no-repeat;
+    background: url("/static/images/controlling.png") no-repeat;
     background-position: center;
     background-size: cover;
     border: 1px solid red;
@@ -90,7 +89,7 @@
 }
 
 .gesture{
-    background: url("/static/gest.jpg") no-repeat;
+    background: url("/static/images/gest.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     border: 1px solid red;
@@ -98,7 +97,7 @@
 }
 
 .autonomouse{
-    background: url("/static/autonomous.png") no-repeat;
+    background: url("/static/images/autonomous.png") no-repeat;
     background-position: center;
     background-size: cover;
     border: 1px solid red;
@@ -106,7 +105,7 @@
 }
 
 .location{
-    background: url("/static/location.jpg") no-repeat;
+    background: url("/static/images/location.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     border: 1px solid red;
@@ -148,7 +147,5 @@ body {
 
 input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
-
   background: #3071a9;
-
 }

@@ -16,10 +16,7 @@ function distanceSensorStop(){
     xhttp.send();
 }
 
-
 function init() {
-  // easal stuff goes hur
-    console.log("ier")
   var xCenter = 150;
   var yCenter = 150;
   var stage = new createjs.Stage('joystick');
@@ -43,8 +40,6 @@ function init() {
 
   var myElement = $('#joystick')[0];
 
-  // create a simple instance
-  // by default, it only adds horizontal recognizers
   var mc = new Hammer(myElement);
 
   mc.on("panstart", function(ev) {
@@ -56,14 +51,12 @@ function init() {
     stage.update();
   });
 
-  // listen to events...
   mc.on("panmove", function(ev) {
     var pos = $('#joystick').position();
 
     var x = (ev.center.x - pos.left - 150);
     var y = (ev.center.y - pos.top - 150);
 
-  console.log(ev)
     var coords = calculateCoords(ev.angle, ev.distance);
 
     psp.x = coords.x;
