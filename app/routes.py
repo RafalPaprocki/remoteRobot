@@ -57,7 +57,8 @@ def gen():
     while True:
             frame = camera.take_frame()
             frame = Processing.to_np_array(frame)
-            # frame = p.image_preprocess(frame)
+            frame, detected_lines = p.line_detect(frame)
+            frame = p.draw_lane_lines(frame, detected_lines)
             i += 1
             frame = Processing.to_jpeg(frame)
             yield (b'--frame\r\n'
@@ -132,7 +133,7 @@ def thread_func():
 def robot_back():
     GPIO.output(13, GPIO.HIGH)
     GPIO.output(6, GPIO.LOW)
-    GPIO.output(19, GPIO.HIGH)
+    GPIO.output(5, GPIO.HIGH)
     GPIO.output(26, GPIO.LOW)
     return "ok"
 
@@ -141,7 +142,7 @@ def robot_back():
 def robot_forward():
     GPIO.output(13, GPIO.LOW)
     GPIO.output(6, GPIO.HIGH)
-    GPIO.output(19, GPIO.LOW)
+    GPIO.output(5, GPIO.LOW)
     GPIO.output(26, GPIO.HIGH)
     return "ok"
 
@@ -150,7 +151,7 @@ def robot_forward():
 def robot_left():
     GPIO.output(13, GPIO.LOW)
     GPIO.output(6, GPIO.HIGH)
-    GPIO.output(19, GPIO.HIGH)
+    GPIO.output(5, GPIO.HIGH)
     GPIO.output(26, GPIO.LOW)
     return "ok"
 
@@ -159,7 +160,7 @@ def robot_left():
 def robot_right():
     GPIO.output(13, GPIO.HIGH)
     GPIO.output(6, GPIO.LOW)
-    GPIO.output(19, GPIO.LOW)
+    GPIO.output(5, GPIO.LOW)
     GPIO.output(26, GPIO.HIGH)
 
     return "ok"
@@ -169,7 +170,7 @@ def robot_right():
 def robot_stop():
     GPIO.output(13, GPIO.LOW)
     GPIO.output(6, GPIO.LOW)
-    GPIO.output(19, GPIO.LOW)
+    GPIO.output(5, GPIO.LOW)
     GPIO.output(26, GPIO.LOW)
     return "ok"
 
@@ -180,7 +181,7 @@ def robot_right_forward():
     print(r)
     GPIO.output(13, GPIO.LOW)
     GPIO.output(6, GPIO.LOW)
-    GPIO.output(19, GPIO.LOW)
+    GPIO.output(5, GPIO.LOW)
     GPIO.output(26, GPIO.HIGH)
 
     return "ok"
@@ -190,7 +191,7 @@ def robot_right_forward():
 def robot_left_forward():
     GPIO.output(13, GPIO.LOW)
     GPIO.output(6, GPIO.HIGH)
-    GPIO.output(19, GPIO.LOW)
+    GPIO.output(5, GPIO.LOW)
     GPIO.output(26, GPIO.LOW)
     return "ok"
 
@@ -199,7 +200,7 @@ def robot_left_forward():
 def robot_left_back():
     GPIO.output(13, GPIO.HIGH)
     GPIO.output(6, GPIO.LOW)
-    GPIO.output(19, GPIO.LOW)
+    GPIO.output(5, GPIO.LOW)
     GPIO.output(26, GPIO.LOW)
     return "ok"
 
@@ -208,7 +209,7 @@ def robot_left_back():
 def robot_right_back():
     GPIO.output(13, GPIO.LOW)
     GPIO.output(6, GPIO.LOW)
-    GPIO.output(19, GPIO.HIGH)
+    GPIO.output(5, GPIO.HIGH)
     GPIO.output(26, GPIO.LOW)
     return "ok"
 

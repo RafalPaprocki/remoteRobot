@@ -131,12 +131,14 @@ function defineCarAction(x, y) {
 function verticalCamera(value) {
   xhttp.open("GET", "robot/vertical/move/" + value, true);
   xhttp.send();
+  console.log("vertical: " + value)
 
 }
 
 function horizontalCamera(value) {
   xhttp.open("GET", "robot/horizontal/move/" + value, true);
   xhttp.send();
+  console.log("horizontal: " + value)
 }
 
 function hideControl() {

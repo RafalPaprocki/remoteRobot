@@ -12,7 +12,7 @@
 {% block content %}
     <div class="main-div">
         <div class="stream">
-            <!--<img class="img" src="{{ url_for('video_stream') }}"/>-->
+            <img class="img" src="{{ url_for('video_stream') }}"/>
         </div>
         <div class="control" id="contr">
             <div class="noselect">
@@ -32,9 +32,9 @@
             </div>
         </div>
     </div>
-    <button onclick="distanceSensorStart()">Start distance sensor</button>
-    <button onclick="distanceSensorStop()">Stop distance sensor</button>
-    <div id = "warning_distance">asdasd</div>
+{#    <button onclick="distanceSensorStart()">Start distance sensor</button>#}
+{#    <button onclick="distanceSensorStop()">Stop distance sensor</button>#}
+{#    <div id = "warning_distance">asdasd</div>#}
     <div style=" display: flex; justify-content: space-around; width: 80%; padding:3px">
         <div id="stop" class = "circle" onclick="activeStop()" ></div>
         <div id="" class = "circle line_follower" onclick="activeStop()" ></div>
@@ -43,14 +43,14 @@
         <div id="" class = "circle autonomouse" onclick="activeStop()" ></div>
         <div id="" class = "circle location" onclick="activeStop()" ></div>
     </div>
-    <h3 style='color: #ccc;font-size: 30px;'>No message yet..</h3>
-    <div class="message_holder">asdasd</div>
-
-    <form action="" method="POST">
-      <input type="text" class="username" placeholder="User Name"/>
-      <input type="text" class="message" placeholder="Messages"/>
-      <input type="submit"/>
-    </form>
+{#    <h3 style='color: #ccc;font-size: 30px;'>No message yet..</h3>#}
+{#    <div class="message_holder">asdasd</div>#}
+{##}
+{#    <form action="" method="POST">#}
+{#      <input type="text" class="username" placeholder="User Name"/>#}
+{#      <input type="text" class="message" placeholder="Messages"/>#}
+{#      <input type="submit"/>#}
+{#    </form>#}
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -78,16 +78,17 @@
             });
         });
     </script>
-    h2>Send:</h2>
-    <form id="emit" method="POST" action='#'>
-        <input type="text" name="emit_data" id="emit_data" placeholder="Message">
-        <input type="submit" value="Echo">
-    </form>
-    <form id="broadcast" method="POST" action='#'>
-        <input type="text" name="broadcast_data" id="broadcast_data" placeholder="Message">
-        <input type="submit" value="Broadcast">
-    </form>
-    <h2>Receive:</h2>
-    <div id="log"></div>
+{#    h2>Send:</h2>#}
+{#    <form id="emit" method="POST" action='#'>#}
+{#        <input type="text" name="emit_data" id="emit_data" placeholder="Message">#}
+{#        <input type="submit" value="Echo">#}
+{#    </form>#}
+{##}
+{#    <form id="broadcast" method="POST" action='#'>#}
+{#        <input type="text" name="broadcast_data" id="broadcast_data" placeholder="Message">#}
+{#        <input type="submit" value="Broadcast">#}
+{#    </form>#}
+{#    <h2>Receive:</h2>#}
+{#    <div id="log"></div>#}
 {% endblock %}
 

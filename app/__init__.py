@@ -8,7 +8,7 @@ from flask_migrate import Migrate
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-GPIO.setup(19, GPIO.OUT)
+GPIO.setup(5, GPIO.OUT)
 GPIO.setup(26, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
 GPIO.setup(6, GPIO.OUT)
