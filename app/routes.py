@@ -1,13 +1,10 @@
 from flask import render_template, request
 from flask import Response
 from app import app, socketio
-from app.camera_pi import Camera
-from app.preprocessing import Processing
 from flask_socketio import emit, join_room, leave_room
 import threading
 import time
 from app.hardware.distance_sensor import start_distance_measurement, set_process_run
-from adafruit_servokit import ServoKit
 from app.hardware.dht11 import DHT11
 
 
@@ -46,27 +43,7 @@ def data_preview():
     return render_template('dataPreview.html')
 
 
-def gen():
-    p = Processing()
-    # p.load()
-    camera = Camera()
-    camera.initialize()
-    i = 0
-    while True:
-            frame = camera.take_frame()
-            frame = Processing.to_np_array(frame)
-            # frame, detected_lines = p.line_detect(frame)
-            # frame = p.draw_lane_lines(frame, detected_lines)
-            i += 1
-            frame = Processing.to_jpeg(frame)
-            yield (b'--frame\r\n'
-                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
-
-@app.route('/video_stream')
-def video_stream():
-    return Response(gen(),
-                    mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
 @app.route('/distance_measurement/start')
