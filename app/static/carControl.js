@@ -9,7 +9,7 @@ var verticalSlider;
 var horizontalSlider;
 
 document.addEventListener('DOMContentLoaded', function() {
-    verticalSlider = $("#verRange")[0]
+   verticalSlider = $("#verRange")[0]
    horizontalSlider = $("#horRange")[0]
 }, false);
 

@@ -2,14 +2,8 @@ from flask import render_template, request
 from flask import Response
 from app import app, socketio
 from flask_socketio import emit, join_room, leave_room
-import threading
 import time
-from app.hardware.distance_sensor import start_distance_measurement, set_process_run
-from app.hardware.dht11 import DHT11
-
-
-
-dht11 = DHT11()
+from app.sensors.distance_sensor import start_distance_measurement, set_process_run
 
 
 @app.route('/')
@@ -17,16 +11,6 @@ def index():
     return render_template('mainPage.html')
 
 
-@app.route('/startt')
-def startt():
-    dht11.start()
-    return "ok"
-
-
-@app.route('/stop')
-def stop():
-    dht11.stop()
-    return "ok"
 
 @app.route('/robot-config')
 def robot_config():
@@ -46,18 +30,7 @@ def data_preview():
 
 
 
-@app.route('/distance_measurement/start')
-def distance_measurement_start():
-    set_process_run(True)
-    a = threading.Thread(target=start_distance_measurement())
-    a.start()
-    return Response(200)
 
-
-@app.route('/distance_measurement/stop')
-def distance_measurement_stop():
-    set_process_run(False)
-    return Response(200)
 
 
 @socketio.on('my event', namespace='/test')
@@ -98,12 +71,8 @@ def disconnect():
     clients.remove(request.remote_user)
 
 
-def thread_func():
-    while(1):
-        time.sleep(1)
-        socketio.emit('my response', {'data': 'ddd'}, namespace='/test', room="room1")
 
 
 
 
-x = threading.Thread(target=thread_func)
+

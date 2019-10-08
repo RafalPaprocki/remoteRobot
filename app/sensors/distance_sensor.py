@@ -47,7 +47,7 @@ def start_distance_measurement():
             dist = distance()
             if dist < 8:
                 socketio.emit('warning response', {'data': dist}, namespace='/test')
-            time.sleep(0.5)
+            time.sleep(0.1)
             socketio.emit('my response', {'data': dist}, namespace='/test')
             if not process_run:
                 break
