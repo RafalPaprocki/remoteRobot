@@ -16,7 +16,6 @@ class DistanceSensor:
     def start(self):
         self.stopped = False
         Thread(target=self.start_distance_measurement(), args=()).start()
-
         return self
 
     def stop(self):
@@ -48,7 +47,7 @@ class DistanceSensor:
                 dist = self.distance()
                 if dist < 8:
                     socketio.emit('warning response', {'data': dist}, namespace='/test')
-                time.sleep(0.1)
+                time.sleep(0.5)
                 socketio.emit('my response', {'data': dist}, namespace='/test')
                 if self.stopped:
                     break

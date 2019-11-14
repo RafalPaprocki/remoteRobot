@@ -1,10 +1,12 @@
 from app.sensors.dht11 import DHT11
 from app.sensors.distance_sensor import DistanceSensor
-from app import app, socketio
+from app import app
 from flask import Response
-
 dht11 = DHT11()
 distance_sensor = DistanceSensor()
+
+
+
 
 
 @app.route('/dht11/start')

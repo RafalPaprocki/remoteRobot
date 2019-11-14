@@ -28,7 +28,7 @@ function init() {
 
   var vertical = new createjs.Shape();
   var horizontal = new createjs.Shape();
-  vertical.graphics.beginFill('#ff4d4d').drawRect(150, 0, 2, 300);
+  vertical.graphics.beginFill('#ff3c42').drawRect(150, 0, 2, 300);
   horizontal.graphics.beginFill('#ff4d4d').drawRect(0, 150, 300, 2);
 
   stage.addChild(psp);

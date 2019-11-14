@@ -26,7 +26,7 @@ class DHT11:
     def update(self):
         while True:
             h, t = DHT11.take_temp_and_humidity()
-            print(str(h))
+            print(str(t))
             if h is not None and t is not None:
                 w = Weather(humidity=h, temperature=t)
                 db.session.add(w)

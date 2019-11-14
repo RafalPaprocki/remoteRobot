@@ -32,10 +32,10 @@ class Camera(object):
 
     @classmethod
     def _thread(cls):
-        with picamera.PiCamera(resolution='640x380', framerate=24) as camera:
+        with picamera.PiCamera(resolution='640x320', framerate=44) as camera:
             Camera.output = StreamingOutput()
             camera.start_recording(cls.output, format='mjpeg')
-            time.sleep(100000)
+            time.sleep(100000000)
 
     def take_frame(self):
         return Camera.output.frame
