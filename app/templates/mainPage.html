@@ -3,6 +3,7 @@
     <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='styles/mainPage.css') }}">
     <script src="{{ url_for('static', filename='scripts/mainPage.js') }}"></script>
     <script src="{{ url_for('static', filename='scripts/carControl.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/video.js') }}"></script>
     <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 
@@ -15,7 +16,6 @@
         <div class="stream">
             <img class="img" src="{{ url_for('video_stream') }}"/>
         </div>
-
         <div class="control" id="contr">
             <div class="noselect">
               <div class="container space-top">
@@ -41,7 +41,12 @@
         <div id="" class = "circle controlling" onclick="hideControl()" ></div>
         <div id="" class = "circle gesture" onclick="activeStop()" ></div>
         <div id="" class = "circle autonomouse" onclick="activeStop()" ></div>
-        <div id="" class = "circle location" onclick="activeStop()" ></div>
+        <div id="" class = "circle location" data-toggle="modal" data-target="#exampleModalCenter" onclick="activeStop()" ></div>
     </div>
+<div onclick="log()">asd</div>
+{% include 'vdeoRecordingModal.html' %}
+
+
+
 {% endblock %}
 

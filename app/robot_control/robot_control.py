@@ -70,10 +70,16 @@ def steering_with_angle(steering_angle, lane_lines):
     if len(lane_lines) > 1:
         if steering_angle < 70:
             left_forward()
+            time.sleep(0.1)
+            stop()
         elif steering_angle < 115:
             forward()
+            time.sleep(0.1)
+            stop()
         elif steering_angle < 170:
             right_forward()
+            time.sleep(0.1)
+            stop()
         else:
             stop()
 

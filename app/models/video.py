@@ -1,15 +1,15 @@
 from app import db
 from datetime import datetime
-from time import time
 
 
-class Weather(db.Model):
+class Video(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     date = db.Column(db.DateTime, default=datetime.utcnow)
-    humidity = db.Column(db.Float)
-    temperature = db.Column(db.Float)
+    name = db.Column(db.String)
+    path = db.Column(db.String)
+    preview_frame = db.Column(db.String)
 
     def __repr__(self):
-        return '<Weather {}>'.format(self.id)
+        return '<Video {}>'.format(self.id)
 
 

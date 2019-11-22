@@ -3,6 +3,11 @@ import io
 import threading
 import picamera
 from threading import Condition
+import cv2
+import time
+import subprocess
+
+from app.preprocessing.preprocessing import Processing
 
 
 class StreamingOutput(object):
@@ -24,6 +29,26 @@ class Camera(object):
     frame = None
     output = StreamingOutput()
 
+
+    def __init__(self):
+        self.recording = False
+        self.writer = None
+        self.recoding_video_name = None
+
+    def start_recording(self, name):
+        self.recoding_video_name = name
+        if self.writer is None:
+            fourcc = cv2.VideoWriter_fourcc(*'MJPG')
+            self.writer = cv2.VideoWriter("/home/pi/Desktop/" + self.recoding_video_name + ".avi", fourcc, 13, (640, 320), True)
+            self.recording = True
+
+    def stop_recording(self):
+        self.recording = False
+
+    def convert_to_mp4(self):
+        cmds = ['ffmpeg', '-i', '/home/pi/Desktop/' + self.recoding_video_name+".avi", self.recoding_video_name + ".mp4"]
+        subprocess.Popen(cmds)
+
     def initialize(self):
         if Camera.thread is None:
             Camera.thread = threading.Thread(target=self._thread)
@@ -38,4 +63,15 @@ class Camera(object):
             time.sleep(100000000)
 
     def take_frame(self):
-        return Camera.output.frame
+        frame = Camera.output.frame
+        frame = Processing.to_np_array(frame)
+        if self.writer is not None:
+            if self.recording is True:
+                self.writer.write(frame)
+            else:
+                self.writer.release()
+                self.convert_to_mp4()
+                self.recoding_video_name = None
+                self.writer = None
+
+        return frame

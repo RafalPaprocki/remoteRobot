@@ -136,10 +136,11 @@ function horizontalCamera(value) {
 
 function hideControl() {
   if(hidden){
-     $( ".control" ).show( 1000)
+     $( ".control" ).show(1000)
     hidden = false
   }else {
     $(".control").hide(1000);
     hidden = true
   }
 }
+

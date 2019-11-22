@@ -6,9 +6,6 @@ dht11 = DHT11()
 distance_sensor = DistanceSensor()
 
 
-
-
-
 @app.route('/dht11/start')
 def dht11_start():
     dht11.start()
