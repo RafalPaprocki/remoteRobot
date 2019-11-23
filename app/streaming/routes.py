@@ -65,9 +65,6 @@ def video_save():
     return Response(status=200)
 
 
-
-
-
 @app.route('/video/recording/start/<fname>')
 def video_start(fname):
     camera.start_recording(fname)

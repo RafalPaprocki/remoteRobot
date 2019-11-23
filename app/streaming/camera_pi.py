@@ -41,10 +41,11 @@ class Camera(object):
         if self.writer is None:
             frame = Camera.output.frame
             frame = Processing.to_np_array(frame)
+            cv2.imwrite(self.recording_path + self.recoding_video_name + ".jpg", frame)
             fourcc = cv2.VideoWriter_fourcc(*'MJPG')
+
             self.writer = cv2.VideoWriter(self.recording_path + self.recoding_video_name + ".avi",
                                           fourcc, 13, (640, 320), True)
-            cv2.imwrite(self.recording_path + self.recoding_video_name + ".jpg", frame)
             self.recording = True
 
     def stop_recording(self):

@@ -1,6 +1,8 @@
 from flask import render_template, request
-from app import app, socketio
+from app import app, socketio, db
 from flask_socketio import emit, join_room, leave_room
+from sqlalchemy import desc
+from app.models.video import Video
 
 
 @app.route('/')
@@ -8,9 +10,10 @@ def index():
     return render_template('mainPage.html')
 
 
-@app.route('/robot-config')
-def robot_config():
-    return render_template('video_preview.html')
+@app.route('/video-preview')
+def video_preview():
+    videos = Video.query.order_by(desc(Video.date)).all()
+    return render_template('video_preview.html', videos = videos)
 
 
 @app.route('/robot-routes')
