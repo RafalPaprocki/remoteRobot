@@ -34,19 +34,25 @@ class Camera(object):
         self.recording = False
         self.writer = None
         self.recoding_video_name = None
+        self.recording_path = "/home/pi/Desktop/remoteRobotVideos/"
 
     def start_recording(self, name):
         self.recoding_video_name = name
         if self.writer is None:
+            frame = Camera.output.frame
+            frame = Processing.to_np_array(frame)
             fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-            self.writer = cv2.VideoWriter("/home/pi/Desktop/" + self.recoding_video_name + ".avi", fourcc, 13, (640, 320), True)
+            self.writer = cv2.VideoWriter(self.recording_path + self.recoding_video_name + ".avi",
+                                          fourcc, 13, (640, 320), True)
+            cv2.imwrite(self.recording_path + self.recoding_video_name + ".jpg", frame)
             self.recording = True
 
     def stop_recording(self):
         self.recording = False
 
     def convert_to_mp4(self):
-        cmds = ['ffmpeg', '-i', '/home/pi/Desktop/' + self.recoding_video_name+".avi", self.recoding_video_name + ".mp4"]
+        cmds = ['ffmpeg', '-i', self.recording_path + self.recoding_video_name+".avi",
+                self.recording_path + self.recoding_video_name + ".mp4"]
         subprocess.Popen(cmds)
 
     def initialize(self):

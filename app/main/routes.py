@@ -10,7 +10,7 @@ def index():
 
 @app.route('/robot-config')
 def robot_config():
-    return render_template('robotConfig.html')
+    return render_template('video_preview.html')
 
 
 @app.route('/robot-routes')
