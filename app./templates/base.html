@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>remoteRobot</title>
+    {{ bootstrap.load_css() }}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/base.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="{{ url_for('static', filename='scripts/base.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/mainPage.js') }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+    {% block header %}{% endblock %}
+</head>
+
+<body {% block body_attr %}{% endblock %}>
+    <header>
+        <div class="toggle-btn" onclick="toggleSidebar()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <div class="main-container">
+        <nav id="sidebar">
+            <ul>
+                <li>
+                    <a class="menu-item" href="{{url_for('index')}}">Main Page</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="{{url_for('video_preview')}}">Video preview</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="{{url_for('robot_routes')}}">Creating a route</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="{{url_for('data_preview')}}">Data preview</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    {{ bootstrap.load_js() }}
+</body>
+</html>

@@ -1,0 +1,36 @@
+<div class="modal fade" id="temperatureModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle" style="font-weight: bold">Temperature and humidity sensor</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div style="padding:0 22px; ">Zaznacz co chcesz zrobić z czujnikiem a najstępnie kliknij "Ok"</div>
+          <div class="form">
+              <div class="inputGroup" data-toggle="tooltip" data-placement="top" title="Uruchamia pomiar danych pogodowych co 30 minut">
+                <input id="startRadio" name="radio" type="radio" />
+                <label for="startRadio">Rozpocznij pomiar danych pogodowych</label>
+              </div>
+              <div class="inputGroup" data-toggle="tooltip" data-placement="top" title="Wyłącza zbieranie danych pogodowych">
+                <input id="stopRadio" name="radio" type="radio"/>
+                <label for="stopRadio">Zakończ pomiar danych pogodowych</label>
+              </div>
+              <div class="inputGroup" data-toggle="tooltip" data-placement="top" title="Dokonuje jednorazowego pomiaru danych">
+                <input id="oneTimeRadio" name="radio" type="radio"/>
+                <label for="oneTimeRadio">Wykonaj jednorazowy pomiar</label>
+              </div>
+              <div id="weatherInfo" class="alert alert-info" role="alert"><div style="position:absolute; left:97%; top:-16%; cursor:pointer"  onclick="hideWeatherInfo()">x</div>
+                  Temperatura = 22stopnie, Wilgotność 33%
+              </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button id="start_recording" type="button" class="btn btn-secondary" >Cancel</button>
+        <button id="stop_recording" type="button" class="btn btn-primary"  onclick="doAction()">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>

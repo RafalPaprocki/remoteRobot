@@ -2,10 +2,13 @@
 {% block header %}
     <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='styles/mainPage.css') }}">
     <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='styles/toast.css') }}">
+    <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='styles/radio_button.css') }}">
     <script src="{{ url_for('static', filename='scripts/mainPage.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/spinner.js') }}"></script>
     <script src="{{ url_for('static', filename='scripts/carControl.js') }}"></script>
     <script src="{{ url_for('static', filename='scripts/toast.js') }}"></script>
     <script src="{{ url_for('static', filename='scripts/video.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/weather.js') }}"></script>
     <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 
@@ -27,7 +30,7 @@
               </div>
             </div>
             <div style = "width:100%; margin-top:5%">
-                <input style="width:100%;" type="range" min="0" max="180" value="90" class="slider" id="horRange"
+                <input style="width:100%; margin-bottom:5px;" type="range" min="0" max="180" value="90" class="slider" id="horRange"
                        oninput="horizontalCamera(this.value)" onchange="horizontalCamera(this.value)">
                 <input style="width:100%;" type="range" min="0" max="180" value="90" class="slider" id="verRange"
                         oninput="verticalCamera(this.value)" onchange="verticalCamera(this.value)">
@@ -42,14 +45,18 @@
         <div id="" class = "circle line_follower" onclick="activeStop()" ></div>
         <div id="" class = "circle controlling" onclick="hideControl()" ></div>
         <div id="" class = "circle gesture" onclick="activeStop()" ></div>
-        <div id="" class = "circle autonomouse" onclick="activeStop()" ></div>
+        <div id="" class = "circle autonomouse" data-toggle="modal" data-target="#temperatureModal" onclick="activeStop()" ></div>
         <div id="" class = "circle location" data-toggle="modal" data-target="#exampleModalCenter" onclick="activeStop()" ></div>
     </div>
 
 {% include 'vdeoRecordingModal.html' %}
+{% include 'temperatureMeasurementModal.html' %}
+
 
 <div id="snackbar" class="toastr">Started recording. <br>To stop remember go to record </br> icon and click stop button</div>
 <div id="snackbar2" class="toastr">Video recorded successfully. <br> You can watch your video in 'videos' tab"</div>
+<div onclick="ss()">ss</div>
 
 {% endblock %}
 
+{% include 'spinner.html' %}

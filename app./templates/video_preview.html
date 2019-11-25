@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block header %}
+    <script src="{{ url_for('static', filename='scripts/video.js') }}"></script>
+{% endblock %}
+{% block content %}
+    <video id="myVideo" width="70%" height="65%" style="position: absolute; left: calc(50% - 35%); z-index: 3" controls >
+       <source id = "mp4_src" src="/file-download/youroutput1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div style="position: absolute; top:70%; width:70%; left: calc(50% - 35%); justify-content: space-around; display:flex; flex-wrap: wrap; ">
+    {% for video in videos %}
+        <div style="width:25%; margin-bottom: 60px">
+            <img class="img" width="100%" height="200" src="/file-download/{{video.preview_frame}}" style="margin-bottom:2%; cursor: pointer" onclick="playVideo(src)"/>
+            <div style="color:#ffab2c; font-size: 2em">{{video.name}}</div>
+            <div>{{ video.date.strftime('%Y-%m-%d') }}</div>
+
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}

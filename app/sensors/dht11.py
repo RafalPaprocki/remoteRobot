@@ -16,6 +16,8 @@ class DHT11:
     @staticmethod
     def take_temp_and_humidity():
         humidity, temperature = Adafruit_DHT.read(DHT_SENSOR, DHT_PIN)
+        while humidity is None or temperature is None:
+            humidity, temperature = Adafruit_DHT.read(DHT_SENSOR, DHT_PIN)
         return humidity, temperature
 
     def start(self):
@@ -26,12 +28,11 @@ class DHT11:
     def update(self):
         while True:
             h, t = DHT11.take_temp_and_humidity()
-            print(str(t))
-            if h is not None and t is not None:
-                w = Weather(humidity=h, temperature=t)
-                db.session.add(w)
-                db.session.commit()
-                time.sleep(PAUSE_PERIOD * 60)
+            w = Weather(humidity=h, temperature=t)
+            db.session.add(w)
+            db.session.commit()
+            time.sleep(PAUSE_PERIOD * 60)
+            print(t)
             if self.stopped:
                 return
 

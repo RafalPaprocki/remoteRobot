@@ -1,5 +1,9 @@
 var hidden = false;
 
+$(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
+
 function activeStop(){
     document.getElementById("stop").classList.toggle("active");
 }
@@ -144,3 +148,6 @@ function hideControl() {
   }
 }
 
+$(document).ready(function() {
+
+});
