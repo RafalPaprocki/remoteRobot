@@ -92,5 +92,6 @@ function showWeatherInfo(temperature, humidity) {
 
 function hideWeatherInfo() {
     $("#weatherInfo").hide(1000);
-
 }
+
+

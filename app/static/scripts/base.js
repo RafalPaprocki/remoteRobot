@@ -3,3 +3,6 @@ function toggleSidebar(){
     document.getElementsByClassName('content')[0].classList.toggle('active')
 }
 
+function loadDatePicker(id, config){
+    $('#'+id).datepicker(config);
+}

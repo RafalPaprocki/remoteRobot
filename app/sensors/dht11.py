@@ -1,12 +1,15 @@
 import Adafruit_DHT
 import time
 from threading import Thread
+
+from datetime import date, datetime, timedelta
+
 from app.models.weather import Weather
 from app import db
 
 DHT_SENSOR = Adafruit_DHT.DHT11
 DHT_PIN = 4
-PAUSE_PERIOD = 0.1 # in minutes
+PAUSE_PERIOD = 60 # in minutes
 
 
 class DHT11:
@@ -26,9 +29,16 @@ class DHT11:
         return self
 
     def update(self):
+        d = datetime.today()
+        if d.minute != 0:
+            d1 = d.replace(minute=0, second=0) + timedelta(hours=1)
+            time_to_wait = (d1-d).total_seconds()
+            print(time_to_wait)
+            time.sleep(time_to_wait)
+
         while True:
             h, t = DHT11.take_temp_and_humidity()
-            w = Weather(humidity=h, temperature=t)
+            w = Weather(humidity=h, temperature=t, date=datetime.today())
             db.session.add(w)
             db.session.commit()
             time.sleep(PAUSE_PERIOD * 60)

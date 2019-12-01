@@ -1,4 +1,25 @@
 {% extends "base.html" %}
+{% block header %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="{{ url_for('static', filename='scripts/charts.js') }}"></script>
+    <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='node_modules/@chenfengyuan/datepicker/dist/datepicker.css') }}">
+    <script src="{{ url_for('static', filename='node_modules/@chenfengyuan/datepicker/dist/datepicker.js') }}"></script>
+{% endblock %}
 {% block content %}
-    data preview
+    <div style="display: flex; justify-content: space-around">
+        <div style="width:45%">
+            <input id="date1" style="border:solid 4px" data-toggle="datepicker">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div style="width:45%">
+            <input id="date2" style="border:solid 4px" data-toggle="datepicker">
+            <canvas id="canvas1"></canvas>
+        </div>
+    </div>
+    <div style="width:45%;position:relative; left:calc(50% - 45%/2); margin-top: 5%">
+            <input id="date3" style="border:solid 4px" data-toggle="datepicker">
+            <canvas id="canvas3"></canvas>
+        </div>
+    <button onclick="change()">dd</button>
 {% endblock %}

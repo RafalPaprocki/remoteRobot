@@ -4,7 +4,7 @@ from datetime import datetime
 
 class Video(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    date = db.Column(db.DateTime, default=datetime.utcnow)
+    date = db.Column(db.DateTime, default=datetime.today())
     name = db.Column(db.String)
     path = db.Column(db.String)
     preview_frame = db.Column(db.String)
