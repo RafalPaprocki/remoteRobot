@@ -1,11 +1,11 @@
-function startLoading(){
-    document.getElementsByClassName("main-container")[0].disabled = true;
-    document.getElementsByClassName("main-container")[0].style.opacity = 0.8;
-    document.getElementById("spinner").style.visibility = "visible"
+function startLoading(spinnerId, disabledId){
+    document.getElementById(disabledId).disabled = true;
+    document.getElementById(disabledId).style.opacity = 0.7;
+    document.getElementById(spinnerId).style.visibility = "visible"
 }
 
-function stopLoading(){
-    document.getElementsByClassName("main-container")[0].disabled = false;
-    document.getElementsByClassName("main-container")[0].style.opacity = 1;
-    document.getElementById("spinner").style.visibility = "hidden"
+function stopLoading(spinnerId, disabledId){
+    document.getElementById(disabledId).disabled = false;
+    document.getElementById(disabledId).style.opacity = 1;
+    document.getElementById(spinnerId).style.visibility = "hidden"
 }

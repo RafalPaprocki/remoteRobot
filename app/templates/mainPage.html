@@ -60,4 +60,7 @@
 
 {% endblock %}
 
-{% include 'spinner.html' %}
+{% with %}
+    {% set spinner='spinner' %}
+    {% include 'spinner.html' %}
+{% endwith %}

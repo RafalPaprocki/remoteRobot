@@ -1,4 +1,38 @@
 {% extends "base.html" %}
+{% block header %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="{{ url_for('static', filename='scripts/charts.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/spinner.js') }}"></script>
+    <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='node_modules/@chenfengyuan/datepicker/dist/datepicker.css') }}">
+    <script src="{{ url_for('static', filename='node_modules/@chenfengyuan/datepicker/dist/datepicker.js') }}"></script>
+{% endblock %}
 {% block content %}
-    data preview
+    <div style="display: flex; justify-content: space-around">
+        <div style="width:45%; position:relative;">
+            <input id="date1" style="margin-top: 28px; position: absolute;left: 6%;width: 16%;" data-toggle="datepicker">
+            <canvas id="canvas"></canvas>
+             {% with %}
+                {% set spinner='spinner-day' %}
+                {% include 'spinner.html' %}
+            {% endwith %}
+        </div>
+        <div style="width:45%; position:relative;">
+            <input id="date2" style="margin-top: 28px;position: absolute;left: 6%;width: 16%;" data-toggle="datepicker">
+            <canvas id="canvas2"></canvas>
+            {% with %}
+                {% set spinner='spinner-month' %}
+                {% include 'spinner.html' %}
+            {% endwith %}
+        </div>
+    </div>
+    <div style="width:45%;position:relative; left:calc(50% - 45%/2); margin-top: 5%">
+            <input id="date3" style="margin-top: 28px;position: absolute;left: 6%;width: 16%;" data-toggle="datepicker">
+            <canvas id="canvas3"></canvas>
+            {% with %}
+                {% set spinner='spinner-year' %}
+                {% include 'spinner.html' %}
+            {% endwith %}
+            </div>
+    </div>
 {% endblock %}

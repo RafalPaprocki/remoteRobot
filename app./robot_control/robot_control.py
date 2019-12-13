@@ -1,6 +1,9 @@
 import RPi.GPIO as GPIO
 from app.hardware.GPIOConfig import GPIO_config
 import time
+from adafruit_servokit import ServoKit
+
+kit = ServoKit(channels=16)
 
 
 def forward():
@@ -64,6 +67,10 @@ def right_back():
     GPIO.output(GPIO_config.RIGHT_REAR_MOTOR, GPIO.LOW)
     GPIO.output(GPIO_config.LEFT_FRONT_MOTOR, GPIO.HIGH)
     GPIO.output(GPIO_config.LEFT_REAR_MOTOR, GPIO.LOW)
+
+
+def servo_move(servo_number, angle):
+    kit.servo[servo_number].angle = int(angle)
 
 
 def steering_with_angle(steering_angle, lane_lines):

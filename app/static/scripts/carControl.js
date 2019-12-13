@@ -87,6 +87,11 @@ function checkKey(event) {
             xhttp.send();
             verticalSlider.value = angle
         }
+    } else if (key == 'z' || key == 'Z' || key == '90') {
+        console.log("photo")
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "/photo", true)
+        xhttp.send()
     }
 }
 

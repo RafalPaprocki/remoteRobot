@@ -125,6 +125,7 @@ function defineCarAction(x, y) {
   }
 }
 
+
 function verticalCamera(value) {
   xhttp.open("GET", "robot/vertical/move/" + value, true);
   xhttp.send();

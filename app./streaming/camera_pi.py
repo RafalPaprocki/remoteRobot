@@ -45,7 +45,7 @@ class Camera(object):
             fourcc = cv2.VideoWriter_fourcc(*'MJPG')
 
             self.writer = cv2.VideoWriter(self.recording_path + self.recoding_video_name + ".avi",
-                                          fourcc, 13, (640, 320), True)
+                                          fourcc, 13, (480, 240), True)
             self.recording = True
 
     def stop_recording(self):
@@ -64,7 +64,8 @@ class Camera(object):
 
     @classmethod
     def _thread(cls):
-        with picamera.PiCamera(resolution='640x320', framerate=44) as camera:
+        with picamera.PiCamera(resolution='640x480', framerate=35) as camera:
+            camera.video_stabilization = True
             Camera.output = StreamingOutput()
             camera.start_recording(cls.output, format='mjpeg')
             time.sleep(100000000)

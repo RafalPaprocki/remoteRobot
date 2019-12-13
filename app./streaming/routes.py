@@ -83,3 +83,15 @@ def fg(vid):
         return send_file('/home/pi/Desktop/remoteRobotVideos/' + vid)
     except Exception as e:
         return str(e)
+
+
+i = 0
+
+
+@app.route('/photo')
+def make_foto():
+    img = camera.take_frame()
+    cv2.imwrite('/home/pi/Desktop/images_sign/img' + str(i) + '.jpg', img)
+    global i
+    i += 1
+    return Response(status=200)

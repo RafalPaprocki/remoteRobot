@@ -30,19 +30,19 @@ MONTHS = {
     '12': "Grudzien",
 }
 
-@app.route('/dht11/start')
+@app.route('/dht11/start', methods=['GET'])
 def dht11_start():
     dht11.start()
     return Response(status=200)
 
 
-@app.route('/dht11/stop')
+@app.route('/dht11/stop', methods=['GET'])
 def dht11_stop():
     dht11.stop()
     return Response(status=200)
 
 
-@app.route('/distance_measurement/start')
+@app.route('/distance_measurement/start', methods=['GET'])
 def distance_measurement_start():
     distance_sensor.start()
     return Response(status=200)
@@ -87,7 +87,7 @@ def gen_data():
 
 
 @app.route('/take/<day>/<month>/<year>', methods=['GET'])
-def gen_datar(day, month, year):
+def take_weather_day(day, month, year):
     todays_datetime_start = datetime.datetime(int(year), int(month)+1, int(day), 0,0,0)
     todays_datetime_end = datetime.datetime(int(year), int(month)+1, int(day), 23, 59, 59)
     weathers2 = Weather.query\
@@ -124,7 +124,7 @@ def gen_datar(day, month, year):
 
 
 @app.route('/takea/<month>/<year>', methods=['GET'])
-def gen_dataar( month, year):
+def take_weather_month( month, year):
     todays_datetime_start = datetime.datetime(int(year), int(month)+1, 1, 0,0,0)
     todays_datetime_end = datetime.datetime(int(year), int(month)+1, 30, 23, 59, 59)
     weather3 = Weather.query\
@@ -149,8 +149,8 @@ def gen_dataar( month, year):
 
 
 @app.route('/takea/<year>', methods=['GET'])
-def gen_dataara(year):
-    todays_datetime_start = datetime.datetime(int(year), 1, 1, 0,0,0)
+def take_weather_year(year):
+    todays_datetime_start = datetime.datetime(int(year), 1, 1, 0, 0, 0)
     todays_datetime_end = datetime.datetime(int(year), 12, 31, 23, 59, 59)
     weather = Weather.query\
         .with_entities(sa.func.avg(Weather.temperature).label('average'),

@@ -54,10 +54,10 @@ function oneTimeMeasure(){
                 showWeatherInfo(weather.temperature, weather.humidity);
                 console.log(weather)
             }
-            stopLoading();
+            stopLoading('spinner' , 'main-container');
         }
         xhttp.send();
-        startLoading();
+        startLoading('spinner' , 'main-container');
 }
 
 function doAction(){
@@ -92,5 +92,6 @@ function showWeatherInfo(temperature, humidity) {
 
 function hideWeatherInfo() {
     $("#weatherInfo").hide(1000);
-
 }
+
+
