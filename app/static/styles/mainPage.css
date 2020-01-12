@@ -4,11 +4,11 @@
 
 .stream{
     flex-grow: 4;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .img{
-    width:99%;
+    width:97%;
     padding: 0px;
     margin: 0px;
     height: 70vh;
@@ -73,8 +73,24 @@
     opacity:1;
 }
 
-.line_follower{
-    background: url("/static/images/line_follower.png") no-repeat;
+.distance_sensor{
+    background: url("/static/images/distance_Sensor.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    opacity: 1;
+}
+
+.temp-hum{
+    background: url("/static/images/temp_hum.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    opacity: 1;
+}
+
+.recording{
+    background: url("/static/images/recording.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     border: 1px solid red;
@@ -89,29 +105,6 @@
     opacity: 1;
 }
 
-.gesture{
-    background: url("/static/images/gest.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid red;
-    opacity: 1;
-}
-
-.autonomouse{
-    background: url("/static/images/autonomous.png") no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid red;
-    opacity: 1;
-}
-
-.location{
-    background: url("/static/images/location.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid red;
-    opacity: 1;
-}
 
 body {
   height: 100%;

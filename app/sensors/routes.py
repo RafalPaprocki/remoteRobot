@@ -1,6 +1,7 @@
 import datetime
 from random import randrange
 
+from flask_login import login_required
 from sqlalchemy import desc
 from sqlalchemy.orm import Session
 
@@ -87,6 +88,7 @@ def gen_data():
 
 
 @app.route('/take/<day>/<month>/<year>', methods=['GET'])
+@login_required
 def take_weather_day(day, month, year):
     todays_datetime_start = datetime.datetime(int(year), int(month)+1, int(day), 0,0,0)
     todays_datetime_end = datetime.datetime(int(year), int(month)+1, int(day), 23, 59, 59)

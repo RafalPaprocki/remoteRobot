@@ -38,16 +38,12 @@
             </div>
         </div>
     </div>
-    <button onclick="distanceSensorStart()">Start distance sensor</button>
-    <button onclick="distanceSensorStop()">Stop distance sensor</button>
-    <div id = "warning_distance">asdasd</div>
-    <div style=" display: flex; justify-content: space-around; width: 80%; padding:3px">
-        <div id="stop" class = "circle" onclick="activeStop()" ></div>
-        <div id="" class = "circle line_follower" onclick="activeStop()" ></div>
+
+    <div style=" display: flex; justify-content: space-around; width: 80%; padding:3px; margin-top:15px">
+        <div id="" class = "circle recording" data-toggle="modal" data-target="#exampleModalCenter"></div>
+        <div id="" class = "circle temp-hum" data-toggle="modal" data-target="#temperatureModal"></div>
+        <div id="" class = "circle distance_sensor" onclick="distanceSensorStart()" ></div>
         <div id="" class = "circle controlling" onclick="hideControl()" ></div>
-        <div id="" class = "circle gesture" onclick="activeStop()" ></div>
-        <div id="" class = "circle autonomouse" data-toggle="modal" data-target="#temperatureModal" onclick="activeStop()" ></div>
-        <div id="" class = "circle location" data-toggle="modal" data-target="#exampleModalCenter" onclick="activeStop()" ></div>
     </div>
 
 {% include 'vdeoRecordingModal.html' %}

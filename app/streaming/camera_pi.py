@@ -45,7 +45,7 @@ class Camera(object):
             fourcc = cv2.VideoWriter_fourcc(*'MJPG')
 
             self.writer = cv2.VideoWriter(self.recording_path + self.recoding_video_name + ".avi",
-                                          fourcc, 13, (480, 240), True)
+                                          fourcc, 13, (640, 480), True)
             self.recording = True
 
     def stop_recording(self):

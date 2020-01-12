@@ -3,14 +3,16 @@ from app import app, socketio, db
 from flask_socketio import emit, join_room, leave_room
 from sqlalchemy import desc
 from app.models.video import Video
-
+from flask_login import login_required
 
 @app.route('/')
+@login_required
 def index():
     return render_template('mainPage.html')
 
 
 @app.route('/video-preview')
+@login_required
 def video_preview():
     videos = Video.query.order_by(desc(Video.date)).all()
     return render_template('video_preview.html', videos = videos)
@@ -37,11 +39,6 @@ def test_messagee(message):
     emit('my response', {'data': message['data']}, broadcast=True)
 
 
-@socketio.on('join', namespace='/test')
-def join_roome(data):
-    room = "room1"
-    join_room(room)
-    x.start()
 
 
 @socketio.on('leave', namespace="/test")

@@ -65,5 +65,5 @@ def robot_horizontal_move(angle):
 
 @app.route("/robot/vertical/move/<angle>", methods=['GET'])
 def robot_vertical_move(angle):
-    robot_control.servo_move(4, angle)
+    robot_control.servo_move(3, angle)
     return Response(status=200)

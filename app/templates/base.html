@@ -33,6 +33,11 @@
                 <li>
                     <a class="menu-item" href="{{url_for('data_preview')}}">Data preview</a>
                 </li>
+                {% if current_user.is_authenticated %}
+                <li>
+                    <a class="menu-item" href="{{url_for('logout')}}">Wyloguj</a>
+                </li>
+                {% endif %}
             </ul>
         </nav>
         <div class="content">

@@ -14,14 +14,14 @@ camera = Camera()
 def gen():
     # p = Processing()
     # p.load()
-    line_detection = LineDetection()
+    # line_detection = LineDetection()
 
     camera.initialize()
 
-    time_start = time.time()
-    fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-    name = "fff.avi"
-    writer = cv2.VideoWriter("/home/pi/Desktop/" + name, fourcc, 13, (640, 320), True)
+    # time_start = time.time()
+    # fourcc = cv2.VideoWriter_fourcc(*'MJPG')
+    # name = "fff.avi"
+    # writer = cv2.VideoWriter("/home/pi/Desktop/" + name, fourcc, 13, (640, 480), True)
     while True:
             frame = camera.take_frame()
 
@@ -84,14 +84,12 @@ def fg(vid):
     except Exception as e:
         return str(e)
 
-
-i = 0
-
+i = 102
 
 @app.route('/photo')
 def make_foto():
     img = camera.take_frame()
-    cv2.imwrite('/home/pi/Desktop/images_sign/img' + str(i) + '.jpg', img)
+    cv2.imwrite('/home/pi/Desktop/imageSign2/img' + str(i) + '.jpg', img)
     global i
     i += 1
     return Response(status=200)

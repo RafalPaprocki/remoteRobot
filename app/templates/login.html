@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block header %}
+
+{% endblock %}
+{% block content %}
+<form action="" method="post" novalidate style="width:50%; position:absolute; left:30%;top:25%;">
+    <h1>Zaloguj się</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+            <div class="alert alert-danger">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+     {% endwith %}
+    {{ form.hidden_tag() }}
+     <div class="form-group">
+         {{ form.username.label }}<br>
+        {{ form.username(size=32, class="form-control")}}
+      </div>
+    <p>
+        {{ form.password.label }}<br>
+        {{ form.password(size=32, class="form-control") }}
+    </p>
+    <p>{{ form.remember_me() }} {{ form.remember_me.label }}</p>
+    <p>{{ form.submit(class="btn btn-info") }}</p>
+</form>
+
+{% endblock %}
