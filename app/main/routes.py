@@ -18,9 +18,7 @@ def video_preview():
     return render_template('video_preview.html', videos = videos)
 
 
-@app.route('/robot-routes')
-def robot_routes():
-    return render_template('robotRoutes.html')
+
 
 
 @app.route('/data-preview')

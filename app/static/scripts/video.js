@@ -25,9 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
 function playVideo(videoName) {
     console.log(videoName)
     path = videoName.replace('.jpg', '.mp4')
-  // var source = document.getElementById("asd").src = '/file-download/' + videoName ;
-  // source.setAttribute('src', '/file-download/youroutput.mp4');
-  // var video = document.getElementById('vid').load();
     document.getElementById("mp4_src").src = path;
     document.getElementById("myVideo").load();
 }

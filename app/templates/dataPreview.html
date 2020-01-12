@@ -8,8 +8,8 @@
     <script src="{{ url_for('static', filename='node_modules/@chenfengyuan/datepicker/dist/datepicker.js') }}"></script>
 {% endblock %}
 {% block content %}
-    <div style="display: flex; justify-content: space-around">
-        <div style="width:45%; position:relative;">
+    <div style="display: flex; justify-content: space-around;">
+        <div style="width:45%; position:relative;top: 22px;box-shadow: 12px 12px 24px -12px rgba(10,9,10,0.5), -12px -12px 24px -12px rgba(10,9,10,0.5);padding: 18px">
             <input id="date1" style="margin-top: 28px; position: absolute;left: 6%;width: 16%;" data-toggle="datepicker">
             <canvas id="canvas"></canvas>
              {% with %}
@@ -17,7 +17,7 @@
                 {% include 'spinner.html' %}
             {% endwith %}
         </div>
-        <div style="width:45%; position:relative;">
+        <div style="width:45%; position:relative;top: 22px;box-shadow: 12px 12px 24px -12px rgba(10,9,10,0.5), -12px -12px 24px -12px rgba(10,9,10,0.5);padding: 18px">
             <input id="date2" style="margin-top: 28px;position: absolute;left: 6%;width: 16%;" data-toggle="datepicker">
             <canvas id="canvas2"></canvas>
             {% with %}
@@ -26,7 +26,7 @@
             {% endwith %}
         </div>
     </div>
-    <div style="width:45%;position:relative; left:calc(50% - 45%/2); margin-top: 5%">
+    <div style="width:45%;position:relative; left:calc(50% - 45%/2); margin-top: 5%;box-shadow: 12px 12px 24px -12px rgba(10,9,10,0.5), -12px -12px 24px -12px rgba(10,9,10,0.5);padding: 18px">
             <input id="date3" style="margin-top: 28px;position: absolute;left: 6%;width: 16%;" data-toggle="datepicker">
             <canvas id="canvas3"></canvas>
             {% with %}

@@ -1,0 +1,7 @@
+.video_elem:hover{
+    box-shadow: 12px 12px 24px -12px rgba(143,7,143,1),-12px -12px 24px -12px rgba(143,7,143,1);
+}
+
+.video_elem{
+    box-shadow: 12px 12px 24px -12px rgba(10,9,10,0.5), -12px -12px 24px -12px rgba(10,9,10,0.5);
+}

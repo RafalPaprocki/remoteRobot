@@ -17,26 +17,10 @@ def gen():
     # line_detection = LineDetection()
 
     camera.initialize()
-
-    # time_start = time.time()
-    # fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-    # name = "fff.avi"
-    # writer = cv2.VideoWriter("/home/pi/Desktop/" + name, fourcc, 13, (640, 480), True)
     while True:
             frame = camera.take_frame()
-
-            # frame, steering_angle, lane_lines = line_detection.detect_lines(frame)
-            # frame = p.draw_lane_lines(frame, detected_lines)
-            # steering_with_angle(steering_angle, lane_lines)
-
-            #
-            # if time.time() - time_start < 30:
-            #     writer.write(frame)
-            #     print("writer")
-            # elif writer is not None:
-            #     writer.release()
-
             frame = Processing.to_jpeg(frame)
+
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 

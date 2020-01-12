@@ -81,10 +81,7 @@
 	 font-weight: 600;
 	 line-height: 36px;
 }
- body {
-	 background-color: #d1d7dc;
-	 font-family: 'Fira Sans', sans-serif;
-}
+
  *, *::before, *::after {
 	 box-sizing: inherit;
 }

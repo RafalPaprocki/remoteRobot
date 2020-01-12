@@ -1,18 +1,20 @@
 {% extends "base.html" %}
 {% block header %}
+    <link rel='stylesheet' type="text/css" href="{{ url_for('static', filename='styles/video_preview.css') }}">
     <script src="{{ url_for('static', filename='scripts/video.js') }}"></script>
 {% endblock %}
 {% block content %}
-    <video id="myVideo" width="70%" height="65%" style="position: absolute; top:37px; left: calc(50% - 35%); z-index: 3" controls >
-       <source id = "mp4_src" src="/file-download/youroutput1.mp4" type="video/mp4">
+    <video id="myVideo" width="70%" height="65%" style="position: absolute;top: 60px;left: calc(50% - 35%);z-index: 3; background-color: #3b3f42;
+    box-shadow: -12px -7px 24px 0px rgba(10,9,10,0.5), 12px 7px 24px 0px rgba(10,9,10,0.5);position: absolute; top:58px; left: calc(50% - 35%); z-index: 3; background-color:#283949" controls >
+       <source id = "mp4_src" src="/file-download/{{videos[1].name}}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <div style="position: absolute; top:calc(70% + 10px); width:70%; left: calc(50% - 35%); justify-content: space-around; display:flex; flex-wrap: wrap; ">
+    <div style="position: absolute; top:calc(70% + 45px); width:70%; left: calc(50% - 35%); justify-content: space-around; display:flex; flex-wrap: wrap; ">
     {% for video in videos %}
-        <div style="width:24%; margin-bottom: 60px">
-            <img class="img" width="100%" height="200" src="/file-download/{{video.preview_frame}}" style="margin-bottom:2%; cursor: pointer" onclick="playVideo(src)"/>
-            <div style="color:#ffab2c; font-size: 2em">{{video.name}}</div>
-            <div>{{ video.date.strftime('%Y-%m-%d') }}</div>
+        <div class="video_elem" style="width:17%; margin-bottom: 60px; margin-left: 1%; ">
+            <img class="img" width="100%" height="135" src="/file-download/{{video.preview_frame}}" style="margin-bottom:2%; cursor: pointer" onclick="playVideo(src)"/>
+            <div style="font-size: 1.5em;font-weight: 650;text-align: center">{{video.name}}</div>
+            <div style="text-align: center">{{ video.date.strftime('%Y-%m-%d') }}</div>
 
         </div>
     {% endfor %}
