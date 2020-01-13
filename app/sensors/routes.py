@@ -60,8 +60,8 @@ def measure_temp():
     humidity, temperature = dht11.take_temp_and_humidity()
     return jsonify({"humidity": humidity, "temperature": temperature})
 
-@app.route('/gen_data')
-def gen_data():
+@app.route('/gen_data/<year>/<month>/<day>')
+def gen_data(year, month, day):
     for i in range(0,24):
         temp_0_6 = randrange(9,15);
         temp_6_12 = randrange(14,18);
@@ -74,13 +74,13 @@ def gen_data():
         hum_18_24 = randrange(40, 52);
 
         if(i <= 6):
-            w = Weather(date=datetime.datetime(2019,10,1, i, 0, 0), humidity=hum_0_6, temperature=temp_0_6)
+            w = Weather(date=datetime.datetime(int(year),int(month),int(day), i, 0, 0), humidity=hum_0_6, temperature=temp_0_6)
         elif (i <= 12):
-            w = Weather(date=datetime.datetime(2019, 10, 1, i, 0, 0), humidity=hum_6_12, temperature=temp_6_12)
+            w = Weather(date=datetime.datetime(int(year),int(month),int(day), i, 0, 0), humidity=hum_6_12, temperature=temp_6_12)
         elif (i <= 18):
-            w = Weather(date=datetime.datetime(2019, 10, 1, i, 0, 0), humidity=hum_12_18, temperature=temp_12_18)
+            w = Weather(date=datetime.datetime(int(year),int(month),int(day), i, 0, 0), humidity=hum_12_18, temperature=temp_12_18)
         elif (i <= 24):
-            w = Weather(date=datetime.datetime(2019, 10, 1, i, 0, 0), humidity=hum_18_24, temperature=temp_18_24)
+            w = Weather(date=datetime.datetime(int(year),int(month),int(day), i, 0, 0), humidity=hum_18_24, temperature=temp_18_24)
 
         db.session.add(w)
     db.session.commit();

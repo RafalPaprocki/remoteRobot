@@ -2,309 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c47fe87-af93-4342-82cd-b68a9b6d8be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/.idea/flaskMultiRobotApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/edit_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/email/reset_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/email/reset_password.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/reset_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/reset_password_request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/app/templates/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flaskMultiRobotApp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selfDrivingCar/.idea/selfDrivingCar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selfDrivingCar/camera_pi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../selfDrivingCar/client_socket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tfobjectdetection/.idea/tfobjectdetection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled12/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled14/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled14/.idea/untitled14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled6/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled6/ma.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.vs/WarehauseSystemClient/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/e2e/tsconfig.e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/.vs/src/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/.vs/app/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/components/concert-hall-main-view/concert-hall-main-view.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/components/concert-hall-main-view/concert-hall-main-view.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/components/concert-hall-main-view/concert-hall-main-view.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/components/concert-hall-main-view/concert-hall-main-view.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/services/concert-hall.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/services/concert-hall.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/services/rest-service.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/app/services/rest-service.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/src/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/ConcertHallWebAppClient/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/ConcertHallWebAppApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/Exceptions/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/controller/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/controller/EmployeeControler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/controller/LoggingDataControler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/controller/RoomController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/controller/SeatController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/LoggingData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/Seat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/model/Ticket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/repository/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/repository/EmployeeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/repository/LoggingDataRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/repository/RoomRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/java/com/ConcertHallWebApp/repository/SeatRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/ConcertHallWebApp/src/test/java/com/ConcertHallWebApp/ConcertHallWebAppApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/rt/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/rt/src/Serr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/rt/web/WEB-INF/du.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/rt/web/WEB-INF/page/asd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/rt/web/page/sdfdf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/servlet/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/servlet/src/Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/servlet/web/WEB-INF/gg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConcertHallWebApp/servlet/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HelloServlet/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HelloServlet/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HelloServlet/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HelloServlet/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HelloServlet/HelloServlet.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HelloServlet/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/.idea/KNN_Algorithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../KNN_Algorithm/KNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MyApplication2/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MyApplication2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MyApplication7/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCV/opencv_tutorial_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenCV/opencv_tutorial_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCV/opencv_tutorial_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenCV/opencv_tutorial_02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/remoteRobot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/remoteRobot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/mainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app./__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app./main/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./robot_control/robot_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/app./robot_control/robot_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./robot_control/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app./robot_control/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./sensors/distance_sensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/app./sensors/distance_sensor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./sensors/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app./sensors/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./static/scripts/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/app./static/scripts/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./static/scripts/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app./static/scripts/mainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./static/scripts/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/app./static/scripts/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./static/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/app./static/styles/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./static/styles/mainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/app./static/styles/mainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./static/styles/radio_button.css" beforeDir="false" afterPath="$PROJECT_DIR$/app./static/styles/radio_button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./streaming/camera_pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/app./streaming/camera_pi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./streaming/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app./streaming/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app./templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./templates/dataPreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/app./templates/dataPreview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./templates/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app./templates/mainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./templates/robotRoutes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./templates/temperatureMeasurementModal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app./templates/temperatureMeasurementModal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./templates/vdeoRecordingModal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app./templates/vdeoRecordingModal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app./templates/video_preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/app./templates/video_preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sensors/distance_sensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sensors/distance_sensor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sensors/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sensors/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/scripts/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/scripts/mainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles/mainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/styles/mainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/mainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remoteRobot.py" beforeDir="false" afterPath="$PROJECT_DIR$/remoteRobot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/gfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/gfg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/.idea/untitled1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Boston_Linear_Regression/Boston_Regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/.idea/Fasion_Multiclassification.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/Fasion_Multiclassification/Fashion_multiclassification.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/ID3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/ID3/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python_Lab-master/Python_Lab-master/untitled/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBootJwtAuthentication-1/SpringBootJwtAuthentication/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBootJwtAuthentication-1/SpringBootJwtAuthentication/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/artifacts/Swrvlety_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/libraries/mysql_connector_java_5_1_47_bin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Swrvlety/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Swrvlety/Swrvlety.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Swrvlety/src/Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Swrvlety/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/MainPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/Register.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/model/RetrofitModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/network/RetrofitClientInstance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/java/com/example/myapplication/service/GetDataService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/images.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/imagesasd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/landscape_art_road_127350_300x168.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/pobrane.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/pobraneasd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/sadbigthumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/drawable/wh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/layout/activity_main_page.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/layout/activity_register.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/main/java/com/example/Terrain_Game/TerrainGameApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/main/java/com/example/Terrain_Game/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/main/java/com/example/Terrain_Game/model/UserModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/main/java/com/example/Terrain_Game/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Terrain_Game/Backend/Terrain_Game/src/test/java/com/example/Terrain_Game/TerrainGameApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WarehauseManagmentSystem-login_and_registration/WarehauseManagmentSystem-login_and_registration/src/main/java/com/warehausesystem/app/warehauseSystemWeb/MyCorsFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WarehauseSystem/src/main/java/rppr/warehausesystem/WarehauseSystem/controllers/CarController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WarehauseSystem/src/main/java/rppr/warehausesystem/WarehauseSystem/controllers/CardRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WarehauseSystem/src/main/java/rppr/warehausesystem/WarehauseSystem/model/Author.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WarehauseSystem/src/main/java/rppr/warehausesystem/WarehauseSystem/model/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WarehauseSystem/src/main/java/rppr/warehausesystem/WarehauseSystem/model/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_3/src/main/java/f.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/.idea/libraries/mysql_connector_java_5_1_37_bin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/ClientTCP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/KlientApp.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/KlientApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/ankieta1.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/ankieta1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/menu.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/klient/menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/serwer/BazaDanych.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/serwer/SerwerTCP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/serwer/SerwerView.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety/src/com/ankiety/serwer/SerwerView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety2/s_informatyka_Dyrcz_Michał_projekt/src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ankiety3/ankiety3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../apkfg (1)/apkfg/src/main/java/com/example/apkfg/controller/FirstController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assercje_java/assercje_java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmsse/.idea/libraries/mysql_connector_java_5_1_40.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmsse/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmsse/web/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo (2)/demo/demo2Client/src/app/services/auth.constant.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo (2)/demo/src/main/java/com/example/demo/Repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo (2)/demo/src/main/java/com/example/demo/config/AdditionalWebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo (2)/demo/src/main/java/com/example/demo/config/AuthorizationServerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo (2)/demo/src/main/java/com/example/demo/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo/demo/demoClient/src/app/core/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo/demo/demoClient/src/app/core/error-dialog.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo/demo/demoClient/src/app/core/error-dialog.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo/demo/demoClient/src/app/core/material.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo/demo/demoClient/src/app/login/login.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kolokwium2/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kolokwium2/.idea/libraries/mysql_connector_java_5_1_47_bin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kolokwium2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kolokwium2/src/Logowanie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kolokwium2/web/pages/logged.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kolokwium2/web/pages/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kolokwium2/web/pages/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kolokwium2/web/pages/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5_naj_baza/kolokwium2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5_naj_baza/kolokwium2/src/Registration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5_naj_baza/lab5_naj_baza/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../serv/.idea/artifacts/unnamed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../serv/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../serv/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../serv/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../serv/serv.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servl/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servl/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servl/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servl/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servl/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servl/servl.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring5webapp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring5webapp/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring5webapp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/boston_linear_regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../warehauseSystemWeb/warehauseSystemWeb/src/main/java/com/warehausesystem/app/warehauseSystemWeb/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../warehauseSystemWeb/warehauseSystemWeb/src/main/java/com/warehausesystem/app/warehauseSystemWeb/controller/WarehauseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../warehauseSystemWeb/warehauseSystemWeb/src/main/java/com/warehausesystem/app/warehauseSystemWeb/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../warehauseSystemWeb/warehauseSystemWeb/src/main/java/com/warehausesystem/app/warehauseSystemWeb/repository/WarehauseRepository.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -323,108 +53,115 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="remoteRobot" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes.py">
+        <entry file="file://$PROJECT_DIR$/app/templates/mainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+            <state relative-caret-position="-102">
+              <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
               <folding>
-                <element signature="e#0#68#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../object-detection-deep-learning/object-detection-deep-learning/deep_learning_object_detection.py">
+        <entry file="file://$PROJECT_DIR$/app/templates/dataPreview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1280">
-              <caret line="67" column="11" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/camera_pi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="12" selection-end-line="41" />
+            <state relative-caret-position="560">
+              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/mainPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/preprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#1765#1947#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/hardware/distance_sensor.py">
+        <entry file="file://$PROJECT_DIR$/app/sensors/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="469">
+              <caret line="82" column="77" selection-start-line="82" selection-start-column="77" selection-end-line="82" selection-end-column="77" />
               <folding>
-                <element signature="e#12#35#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/mainPage.html">
+        <entry file="file://$PROJECT_DIR$/app/static/styles/mainPage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+            <state relative-caret-position="569">
+              <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/MobileNetSSD_deploy.prototxt.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="5" selection-end-column="97" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/remoteRobot.py">
+        <entry file="file://$PROJECT_DIR$/app/static/styles/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            <state relative-caret-position="-611">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/styles/radio_button.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/styles/toast.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-171" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/styles/video_preview.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -435,10 +172,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -452,12 +189,30 @@
       <find>activeStop</find>
       <find>cv2</find>
       <find>socketio.emit</find>
+      <find>R</find>
+      <find>19</find>
+      <find>13</find>
+      <find>6</find>
+      <find>ld</find>
+      <find>Launc</find>
+      <find>sidebar</find>
+      <find>slider</find>
+      <find>load</find>
+      <find>spinner</find>
+      <find>Please log in to access this page.</find>
+      <find>initialize</find>
+      <find>Please log</find>
+      <find>hideControl</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>startTime</replace>
       <replace>stopTime</replace>
       <replace>start_time</replace>
+      <replace>5</replace>
+      <replace>GPIO_config.RIGHT_FRONT_MOTOR</replace>
+      <replace>GPIO_config.RIGHT_REAR_MOTOR</replace>
+      <replace>self</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -466,36 +221,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/.flaskenv" />
-        <option value="$PROJECT_DIR$/app/templates/robotRoutes.html" />
-        <option value="$PROJECT_DIR$/app/templates/robotConfig.html" />
-        <option value="$PROJECT_DIR$/app/static/mainPage.html" />
-        <option value="$PROJECT_DIR$/app/templates/base.html" />
-        <option value="$PROJECT_DIR$/app/templates/dataPreview.html" />
-        <option value="$PROJECT_DIR$/app/static/base.css" />
-        <option value="$PROJECT_DIR$/app/static/mainPage.css" />
-        <option value="$PROJECT_DIR$/app/camera.py" />
-        <option value="$PROJECT_DIR$/camera.py" />
-        <option value="$PROJECT_DIR$/camera_pi.py" />
-        <option value="$PROJECT_DIR$/app/ff.py" />
-        <option value="$PROJECT_DIR$/app/camera_pi.py" />
-        <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/app/hardware/distance_sensro.py" />
-        <option value="$PROJECT_DIR$/remoteRobot.py" />
-        <option value="$PROJECT_DIR$/app/static/mainPage.js" />
-        <option value="$PROJECT_DIR$/app/templates/mainPage.html" />
-        <option value="$PROJECT_DIR$/app/preprocessing.py" />
-        <option value="$PROJECT_DIR$/../../real-time-object-detection/real-time-object-detection/real_time_object_detection.py" />
+        <option value="$PROJECT_DIR$/app/static/carControl.js" />
         <option value="$PROJECT_DIR$/app/routes.py" />
-        <option value="$PROJECT_DIR$/app/hardware/distance_sensor.py" />
+        <option value="$PROJECT_DIR$/main/routes.py" />
+        <option value="$PROJECT_DIR$/app/hardware/GPIOConfig.py" />
+        <option value="$PROJECT_DIR$/app/models/route.py" />
+        <option value="$PROJECT_DIR$/app/preprocessing/lane_detection.py" />
+        <option value="$PROJECT_DIR$/app/templates/robotConfig.html" />
+        <option value="$PROJECT_DIR$/app/templates/toasts.html" />
+        <option value="$PROJECT_DIR$/app/static/styles/toast.css" />
+        <option value="$PROJECT_DIR$/app/static/scripts/toast.js" />
+        <option value="$PROJECT_DIR$/app/models/video.py" />
+        <option value="$PROJECT_DIR$/app/sensors/dht11.py" />
+        <option value="$PROJECT_DIR$/app/models/weather.py" />
+        <option value="$PROJECT_DIR$/../../graphqlExample/src/index.js" />
+        <option value="$PROJECT_DIR$/app/static/scripts/weather.js" />
+        <option value="$PROJECT_DIR$/app/static/scripts/spinner.js" />
+        <option value="$PROJECT_DIR$/app/templates/spinner.html" />
+        <option value="$PROJECT_DIR$/app/static/scripts/charts.js" />
+        <option value="$PROJECT_DIR$/app/static/scripts/carControl.js" />
+        <option value="$PROJECT_DIR$/../../gen.py" />
+        <option value="$PROJECT_DIR$/remoteRobot.py" />
+        <option value="$PROJECT_DIR$/../../sign_dataset/generateTf_record.py" />
+        <option value="$USER_HOME$/Downloads/object-detection.pbtxt" />
+        <option value="$PROJECT_DIR$/forms.py" />
+        <option value="$PROJECT_DIR$/app/models/user.py" />
+        <option value="$PROJECT_DIR$/app/streaming/camera_pi.py" />
+        <option value="$PROJECT_DIR$/app/templates/login.html" />
+        <option value="$PROJECT_DIR$/app/login/routes.py" />
+        <option value="$PROJECT_DIR$/app/forms.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/app/preprocessing/preprocessing.py" />
+        <option value="$PROJECT_DIR$/app/robot_control/robot_control.py" />
+        <option value="$PROJECT_DIR$/app/robot_control/routes.py" />
+        <option value="$PROJECT_DIR$/app/static/scripts/base.js" />
+        <option value="$PROJECT_DIR$/app/static/styles/radio_button.css" />
+        <option value="$PROJECT_DIR$/app/templates/robotRoutes.html" />
+        <option value="$PROJECT_DIR$/app/main/routes.py" />
+        <option value="$PROJECT_DIR$/app/static/scripts/video.js" />
+        <option value="$PROJECT_DIR$/app/streaming/routes.py" />
+        <option value="$PROJECT_DIR$/app/templates/vdeoRecordingModal.html" />
+        <option value="$PROJECT_DIR$/app/static/styles/base.css" />
+        <option value="$PROJECT_DIR$/app/templates/dataPreview.html" />
+        <option value="$PROJECT_DIR$/app/templates/video_preview.html" />
+        <option value="$PROJECT_DIR$/app/static/styles/video_preview.css" />
+        <option value="$PROJECT_DIR$/app/templates/temperatureMeasurementModal.html" />
+        <option value="$PROJECT_DIR$/app/sensors/distance_sensor.py" />
+        <option value="$PROJECT_DIR$/app/static/scripts/mainPage.js" />
+        <option value="$PROJECT_DIR$/app/templates/mainPage.html" />
+        <option value="$PROJECT_DIR$/app/static/styles/mainPage.css" />
+        <option value="$PROJECT_DIR$/app/templates/base.html" />
+        <option value="$PROJECT_DIR$/app/sensors/routes.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="131" />
-    <option name="width" value="1440" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="773" />
     <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -520,13 +303,50 @@
               <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
               <item name="remoteRobot" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="remoteRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="remoteRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="remoteRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="robot_control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="remoteRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sensors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
               <item name="remoteRobot" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="remoteRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="remoteRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="remoteRobot" type="b2602c69:ProjectViewProjectNode" />
@@ -545,7 +365,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../prok" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -553,7 +379,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rafpa\Desktop\Projekty\remoteRobot" />
+      <recent name="C:\Users\rafpa\Desktop\Projekty\remoteRobot\app\static\images" />
       <recent name="C:\Users\rafpa\Desktop\Projekty\remoteRobot\app" />
+      <recent name="C:\Users\rafpa\Desktop\Projekty\remoteRobot\app\static\scripts" />
+      <recent name="C:\Users\rafpa\Desktop\Projekty\remoteRobot\app\static\styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -610,11 +440,77 @@
       <workItem from="1567515386953" duration="3736000" />
       <workItem from="1567603966581" duration="2786000" />
       <workItem from="1568016169680" duration="1906000" />
+      <workItem from="1568906025866" duration="25514000" />
+      <workItem from="1569399454430" duration="6938000" />
+      <workItem from="1569419377385" duration="3583000" />
+      <workItem from="1569948828358" duration="612000" />
+      <workItem from="1570090633933" duration="5323000" />
+      <workItem from="1570175138739" duration="5808000" />
+      <workItem from="1570382808368" duration="1401000" />
+      <workItem from="1570517345161" duration="21629000" />
+      <workItem from="1570606985558" duration="1217000" />
+      <workItem from="1570743189321" duration="1152000" />
+      <workItem from="1570889289497" duration="10000" />
+      <workItem from="1570889344120" duration="2666000" />
+      <workItem from="1570955587599" duration="4299000" />
+      <workItem from="1571926974694" duration="669000" />
+      <workItem from="1572026353578" duration="1618000" />
+      <workItem from="1572262488681" duration="1573000" />
+      <workItem from="1572428452575" duration="33000" />
+      <workItem from="1573327755516" duration="1896000" />
+      <workItem from="1573489781954" duration="8230000" />
+      <workItem from="1573687109175" duration="10018000" />
+      <workItem from="1574196550936" duration="1922000" />
+      <workItem from="1574252013980" duration="21465000" />
+      <workItem from="1574348425147" duration="3295000" />
+      <workItem from="1574441754891" duration="17009000" />
+      <workItem from="1574497941702" duration="13919000" />
+      <workItem from="1574547321148" duration="5003000" />
+      <workItem from="1574596259714" duration="1429000" />
+      <workItem from="1574680569410" duration="2987000" />
+      <workItem from="1574700732754" duration="16514000" />
+      <workItem from="1574794645215" duration="5276000" />
+      <workItem from="1574849439886" duration="27177000" />
+      <workItem from="1575056387177" duration="5231000" />
+      <workItem from="1575105046199" duration="20324000" />
+      <workItem from="1575145954330" duration="2124000" />
+      <workItem from="1575185215946" duration="720000" />
+      <workItem from="1575194872548" duration="10711000" />
+      <workItem from="1575277840703" duration="2060000" />
+      <workItem from="1575281817584" duration="665000" />
+      <workItem from="1575499489403" duration="1156000" />
+      <workItem from="1575549303766" duration="4109000" />
+      <workItem from="1575625066047" duration="999000" />
+      <workItem from="1575721082029" duration="7258000" />
+      <workItem from="1575798521273" duration="8605000" />
+      <workItem from="1575883457941" duration="695000" />
+      <workItem from="1575899080925" duration="1446000" />
+      <workItem from="1575902553995" duration="624000" />
+      <workItem from="1575909427086" duration="12835000" />
+      <workItem from="1576089848393" duration="769000" />
+      <workItem from="1576139959103" duration="2262000" />
+      <workItem from="1576267281664" duration="1928000" />
+      <workItem from="1576316004697" duration="7431000" />
+      <workItem from="1576351220361" duration="290000" />
+      <workItem from="1576402687165" duration="525000" />
+      <workItem from="1576495679575" duration="6198000" />
+      <workItem from="1576524138676" duration="445000" />
+      <workItem from="1576614822534" duration="667000" />
+      <workItem from="1576664037680" duration="3541000" />
+      <workItem from="1577182053971" duration="2300000" />
+      <workItem from="1578315469160" duration="1943000" />
+      <workItem from="1578427636785" duration="1953000" />
+      <workItem from="1578501543576" duration="1457000" />
+      <workItem from="1578571697972" duration="1749000" />
+      <workItem from="1578686852774" duration="137000" />
+      <workItem from="1578818829944" duration="14921000" />
+      <workItem from="1578907311706" duration="1370000" />
+      <workItem from="1578908737912" duration="4864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90913000" />
+    <option name="totallyTimeSpent" value="459157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,52 +522,52 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.23993559" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3281412" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.3290461" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32850242" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.3290461" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.4978678" visible="true" weight="0.1511254" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.3268921" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.4978678" visible="true" weight="0.12433012" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.3129689" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.3290461" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49946696" weight="0.4687023" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49946696" weight="0.39016896" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32995737" />
       <window_info anchor="right" x="0" y="0" width="434" height="866" id="Documentation" order="5" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1098081" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.116204694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3281412" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290461" />
-      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.21543409" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290461" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.3281412" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.4978678" visible="true" weight="0.22326064" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.3281412" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49946696" weight="0.120456904" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -724,193 +620,296 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/streaming/camera_pi.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/streaming/camera_pi.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/remoteRobot$remoteRobot.coverage" NAME="remoteRobot Coverage Results" MODIFIED="1568016412183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/remoteRobot$remoteRobot.coverage" NAME="remoteRobot Coverage Results" MODIFIED="1574500488337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.flaskenv">
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img6.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img10.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/preprocessing/lane_detection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/mainPage.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Creating a route.url" />
-    <entry file="file://$PROJECT_DIR$/app/static/location.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/autonomous.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/camera.py" />
-    <entry file="file://$PROJECT_DIR$/camera_pi.py" />
-    <entry file="file://$PROJECT_DIR$/app/ff.py" />
-    <entry file="file://$PROJECT_DIR$/app/templates/robotConfig.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/robotRoutes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/pobrane.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/dataPreview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/stop.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/mainPage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1660">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../pyt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../real-time-object-detection/real-time-object-detection/real_time_object_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#163#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../object-detection-deep-learning/object-detection-deep-learning/deep_learning_object_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="67" column="11" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/camera_pi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/mainPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remoteRobot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/mainPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/MobileNetSSD_deploy.prototxt.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.py">
+    <entry file="file://$PROJECT_DIR$/app/preprocessing/preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+        <state relative-caret-position="140">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <element signature="e#0#68#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/hardware/distance_sensor.py">
+    <entry file="file://$PROJECT_DIR$/app/robot_control/robot_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img9.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img15.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img18.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img20.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img23.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img24.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img36.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img51.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img67.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img78.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img84.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img85.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img74.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img69.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/sensors/imageSign2/img71.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <element signature="e#12#35#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/streaming/camera_pi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="56" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.flaskenv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/robotRoutes.html" />
+    <entry file="file://$PROJECT_DIR$/app/models/video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/streaming/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/2025270708/1405239563/flask/templating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/vdeoRecordingModal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="87" lean-forward="true" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/scripts/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/video_preview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="124" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/toasts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/scripts/toast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sensors/distance_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/temperatureMeasurementModal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/spinner.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/scripts/carControl.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/scripts/charts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/scripts/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/scripts/mainPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="143" column="36" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/dataPreview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="e#1765#1947#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="5" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/styles/toast.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/styles/video_preview.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/styles/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-611">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/mainPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/styles/radio_button.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/styles/mainPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sensors/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="82" column="77" selection-start-line="82" selection-start-column="77" selection-end-line="82" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

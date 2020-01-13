@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>remoteRobot</title>
     {{ bootstrap.load_css() }}
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/base.css') }}">
@@ -13,7 +14,7 @@
     {% block header %}{% endblock %}
 </head>
 
-<body {% block body_attr %}{% endblock %}>
+<body style="background-color: #eef0f370" {% block body_attr %}{% endblock %}>
     <header>
         <div class="toggle-btn" onclick="toggleSidebar()">
             <span></span>
@@ -25,14 +26,19 @@
         <nav id="sidebar">
             <ul>
                 <li>
-                    <a class="menu-item" href="{{url_for('index')}}">Main Page</a>
+                    <a class="menu-item" href="{{url_for('index')}}">Strona główna</a>
                 </li>
                 <li>
-                    <a class="menu-item" href="{{url_for('video_preview')}}">Video preview</a>
+                    <a class="menu-item" href="{{url_for('video_preview')}}">Podgląd video</a>
                 </li>
                 <li>
-                    <a class="menu-item" href="{{url_for('data_preview')}}">Data preview</a>
+                    <a class="menu-item" href="{{url_for('data_preview')}}">Wykresy</a>
                 </li>
+                {% if current_user.is_authenticated %}
+                <li>
+                    <a class="menu-item" href="{{url_for('logout')}}">Wyloguj</a>
+                </li>
+                {% endif %}
             </ul>
         </nav>
         <div class="content">

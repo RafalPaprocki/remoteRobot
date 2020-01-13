@@ -48,7 +48,6 @@ class DistanceSensor:
                 if dist < 12:
                     withdraw()
                 time.sleep(0.1)
-                socketio.emit('my response', {'data': dist}, namespace='/test')
                 if self.stopped:
                     break
                 print(dist)

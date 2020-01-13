@@ -22,12 +22,12 @@
         <div class="stream">
             <img class="img" src="{{ url_for('video_stream') }}"/>
               <div style="display: flex;justify-content: space-around;width: 93%;padding:3px;margin-top:15px;margin-left: 2%;
-    box-shadow: 10px 10px 16px 0px rgba(107,29,107,0.75);background-color: white;rgba(107,29,107,0.75);">
-        <div id="" class = "circle recording" data-toggle="modal" data-target="#exampleModalCenter"></div>
-        <div id="" class = "circle temp-hum" data-toggle="modal" data-target="#temperatureModal"></div>
-        <div id="" class = "circle distance_sensor" onclick="distanceSensorStart()" ></div>
-        <div id="" class = "circle controlling" onclick="hideControl()" ></div>
-    </div>
+                box-shadow: 10px 10px 16px 0px rgba(107,29,107,0.75);background-color: white;rgba(107,29,107,0.75);">
+                <div id="recording" class = "circle recording" data-toggle="modal" data-target="#exampleModalCenter"></div>
+                <div id="weather" class = "circle temp-hum" data-toggle="modal" data-target="#temperatureModal"></div>
+                <div id="dist" class = "circle distance_sensor" onclick="toggleDistSensor(this)"></div>
+                <div id="controlling" class = "circle controlling" onclick="hideControl(this)"></div>
+              </div>
         </div>
         <div class="control" id="contr">
             <div class="noselect">

@@ -21,6 +21,13 @@
     <div class="main-div">
         <div class="stream">
             <img class="img" src="{{ url_for('video_stream') }}"/>
+              <div style="display: flex;justify-content: space-around;width: 93%;padding:3px;margin-top:15px;margin-left: 2%;
+                box-shadow: 10px 10px 16px 0px rgba(107,29,107,0.75);background-color: white;rgba(107,29,107,0.75);">
+                <div id="recording" class = "circle recording" data-toggle="modal" data-target="#exampleModalCenter"></div>
+                <div id="weather" class = "circle temp-hum" data-toggle="modal" data-target="#temperatureModal"></div>
+                <div id="dist" class = "circle distance_sensor" onclick="toggleDistSensor(this)"></div>
+                <div id="controlling" class = "circle controlling" onclick="hideControl(this)"></div>
+              </div>
         </div>
         <div class="control" id="contr">
             <div class="noselect">
@@ -38,24 +45,15 @@
             </div>
         </div>
     </div>
-    <button onclick="distanceSensorStart()">Start distance sensor</button>
-    <button onclick="distanceSensorStop()">Stop distance sensor</button>
-    <div id = "warning_distance">asdasd</div>
-    <div style=" display: flex; justify-content: space-around; width: 80%; padding:3px">
-        <div id="stop" class = "circle" onclick="activeStop()" ></div>
-        <div id="" class = "circle line_follower" onclick="activeStop()" ></div>
-        <div id="" class = "circle controlling" onclick="hideControl()" ></div>
-        <div id="" class = "circle gesture" onclick="activeStop()" ></div>
-        <div id="" class = "circle autonomouse" data-toggle="modal" data-target="#temperatureModal" onclick="activeStop()" ></div>
-        <div id="" class = "circle location" data-toggle="modal" data-target="#exampleModalCenter" onclick="activeStop()" ></div>
-    </div>
+
+
 
 {% include 'vdeoRecordingModal.html' %}
 {% include 'temperatureMeasurementModal.html' %}
 
 
-<div id="snackbar" class="toastr">Started recording. <br>To stop remember go to record </br> icon and click stop button</div>
-<div id="snackbar2" class="toastr">Video recorded successfully. <br> You can watch your video in 'videos' tab"</div>
+<div id="snackbar" class="toastr">Rozpoczeto nagrywanie. <br>Aby zakończyć kliknij  </br> przycisk "Zakończ nagrywanie"</div>
+<div id="snackbar2" class="toastr">Wideo zostało pomyślnie nagrane. <br> Możesz je obejrzeć w zakładce "video""</div>
 
 
 {% endblock %}

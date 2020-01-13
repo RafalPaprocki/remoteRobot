@@ -5,7 +5,7 @@ from app import socketio
 from threading import Thread
 from app.hardware.GPIOConfig import  GPIO_config
 GPIO.setmode(GPIO.BCM)
-
+from app.robot_control.robot_control import withdraw
 
 class DistanceSensor:
     def __init__(self):
@@ -45,10 +45,9 @@ class DistanceSensor:
         try:
             while True:
                 dist = self.distance()
-                if dist < 8:
-                    socketio.emit('warning response', {'data': dist}, namespace='/test')
-                time.sleep(0.5)
-                socketio.emit('my response', {'data': dist}, namespace='/test')
+                if dist < 12:
+                    withdraw()
+                time.sleep(0.1)
                 if self.stopped:
                     break
                 print(dist)

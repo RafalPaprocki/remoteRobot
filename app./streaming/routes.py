@@ -14,29 +14,13 @@ camera = Camera()
 def gen():
     # p = Processing()
     # p.load()
-    line_detection = LineDetection()
+    # line_detection = LineDetection()
 
     camera.initialize()
-
-    time_start = time.time()
-    fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-    name = "fff.avi"
-    writer = cv2.VideoWriter("/home/pi/Desktop/" + name, fourcc, 13, (640, 320), True)
     while True:
             frame = camera.take_frame()
-
-            # frame, steering_angle, lane_lines = line_detection.detect_lines(frame)
-            # frame = p.draw_lane_lines(frame, detected_lines)
-            # steering_with_angle(steering_angle, lane_lines)
-
-            #
-            # if time.time() - time_start < 30:
-            #     writer.write(frame)
-            #     print("writer")
-            # elif writer is not None:
-            #     writer.release()
-
             frame = Processing.to_jpeg(frame)
+
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
@@ -84,14 +68,12 @@ def fg(vid):
     except Exception as e:
         return str(e)
 
-
-i = 0
-
+i = 102
 
 @app.route('/photo')
 def make_foto():
     img = camera.take_frame()
-    cv2.imwrite('/home/pi/Desktop/images_sign/img' + str(i) + '.jpg', img)
+    cv2.imwrite('/home/pi/Desktop/imageSign2/img' + str(i) + '.jpg', img)
     global i
     i += 1
     return Response(status=200)

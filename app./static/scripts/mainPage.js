@@ -1,13 +1,25 @@
 var hidden = false;
-
+var dist_startet = false;
 $(document).ready(function() {
     $("body").tooltip({ selector: '[data-toggle=tooltip]' });
 });
 
-function activeStop(){
-    document.getElementById("stop").classList.toggle("active");
+function activeStop(e){
+    e.classList.toggle('active')
 }
 
+function toggleDistSensor(e){
+  if(dist_startet){
+    distanceSensorStop()
+    dist_startet=false
+    e.style.opacity = 0.6
+  }else{
+    distanceSensorStart()
+    dist_startet=true
+    e.style.opacity = 1
+  }
+
+}
 function distanceSensorStart(){
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", "/distance_measurement/start", true);
@@ -129,23 +141,25 @@ function defineCarAction(x, y) {
 function verticalCamera(value) {
   xhttp.open("GET", "robot/vertical/move/" + value, true);
   xhttp.send();
-  console.log("vertical: " + value)
+  console.log("vertical: " + value);
 
 }
 
 function horizontalCamera(value) {
   xhttp.open("GET", "robot/horizontal/move/" + value, true);
   xhttp.send();
-  console.log("horizontal: " + value)
+  console.log("horizontal: " + value);
 }
 
-function hideControl() {
+function hideControl(e) {
   if(hidden){
      $( ".control" ).show(1000)
-    hidden = false
+     hidden = false;
+     e.style.opacity = 1;
   }else {
-    $(".control").hide(1000);
-    hidden = true
+     $(".control").hide(1000);
+     hidden = true
+     e.style.opacity = 0.6;
   }
 }
 

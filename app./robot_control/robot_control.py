@@ -68,6 +68,10 @@ def right_back():
     GPIO.output(GPIO_config.LEFT_FRONT_MOTOR, GPIO.HIGH)
     GPIO.output(GPIO_config.LEFT_REAR_MOTOR, GPIO.LOW)
 
+def withdraw():
+    back()
+    time.sleep(0.5)
+    stop()
 
 def servo_move(servo_number, angle):
     kit.servo[servo_number].angle = int(angle)
