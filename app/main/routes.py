@@ -18,9 +18,6 @@ def video_preview():
     return render_template('video_preview.html', videos = videos)
 
 
-
-
-
 @app.route('/data-preview')
 def data_preview():
     return render_template('dataPreview.html')
@@ -35,8 +32,6 @@ def test_message(message):
 @socketio.on('my broadcast event', namespace='/test')
 def test_messagee(message):
     emit('my response', {'data': message['data']}, broadcast=True)
-
-
 
 
 @socketio.on('leave', namespace="/test")
