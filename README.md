@@ -12,7 +12,17 @@ Features:
 * Displaying charts with data taken from sensors.  
   
   
-# GUI
+## Web application GUI.
+ 
+  ![Main page](/images/main_application_page.jpg)
+   </br>
+   
+  ![Main page](/images/temperatures_charts.jpg)
+  </br>
+  
+  ![Main page](/images/Video_play.jpg)
+  
+
   
   
   
